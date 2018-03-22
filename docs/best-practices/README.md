@@ -1,4 +1,4 @@
-# Best Practices
+# Best Practices 🥇
 ###### The most common solutions to solve common problems
 ---
 #  📻

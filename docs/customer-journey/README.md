@@ -1,4 +1,4 @@
-# Customer Journey
+# Customer Journey 🗺
 ###### How the facilitator experiences the current Enso application during a design sprint
 ---
 ### Customer Journey

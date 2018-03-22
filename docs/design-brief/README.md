@@ -1,4 +1,4 @@
-# Design Brief
+# Design Brief 📫
 ###### Configuration of Design Sprints in Enso
 ___
 

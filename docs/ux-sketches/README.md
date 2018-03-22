@@ -1,4 +1,4 @@
-# UX Sketches
+# UX Sketches 🖍
 ###### How would possible solutions look like?
 ---
 #  📻

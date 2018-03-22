@@ -1,4 +1,4 @@
-# Competitor Analysis
+# Competitor Analysis 📈
 ###### An analysis of the competitor field of the Enso design sprint app
 ___
 

@@ -1,4 +1,4 @@
-# Fly on the wall
+# Fly on the wall 👀
 ###### An observation of a design sprint and the usage of Enso
 ---
 

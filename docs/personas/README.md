@@ -1,4 +1,4 @@
-# Personas
+# Personas 👫
 ###### People that use the Enso application
 ---
 

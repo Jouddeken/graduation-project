@@ -1,4 +1,4 @@
-# Empathy maps
+# Empathy maps 🤔
 ###### Things people see/say/do/hear/think/want/fear when using Enso
 ---
 
