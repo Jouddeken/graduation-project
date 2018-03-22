@@ -1,7 +1,6 @@
 {
   "name": "graduation-project",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:Jouddeken/graduation-project.git",
   "author": "Job Ouddeken <job.ouddeken@mobgen.com>",
   "license": "MIT",

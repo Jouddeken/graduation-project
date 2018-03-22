@@ -1,4 +1,15 @@
 # Summary
 
 * [Introduction](README.md)
-
+* [Design Brief](docs/design-brief/README.md)
+* [Competitor Analysis](docs/competitor-analysis/README.md)
+* [Personas](docs/personas/README.md)
+* [Empathy Maps](docs/empathy-maps/README.md)
+* [Fly on the Wall](docs/fly-on-the-wall/README.md)
+* [Customer Journey](docs/customer-journey/README.md)
+* [Expert Interviews](docs/expert-interviews/README.md)
+* [Requirements List](docs/requirements-list/README.md)
+* [User Stories](docs/user-stories/README.md)
+* [Best Practices](docs/best-practices/README.md)
+* [UX Sketches](docs/ux-sketches/README.md)
+* [UX User tests](docs/ux-user-tests/README.md)
