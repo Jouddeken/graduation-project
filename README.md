@@ -11,4 +11,4 @@ Version:    1.4.0
 </center>
 
 ## Introduction 🙋🏻‍
-This online document is currently alive! This is where I show the progress in my graduation project and where I upload all deliverables and research I did. Navigate with the menu on the right.
+This online document is currently alive! This is where I show the progress in my graduation project and where I upload all deliverables and research I did. Navigate with the menu on the left.
