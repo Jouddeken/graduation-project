@@ -3,41 +3,41 @@
 ___
 
 ### Introduction
-During my internship at MOBGEN from September 2017 until the end of January of 2018 I have worked on several projects. One of them was an application that helps the facilitator of a design sprint run through their design sprint workshop. The application is a prototype that is used to test if the idea behind a tool to help the facilitator is effective. It is also used to discover how to further develop it and how to put the application into the market. After some research and a lot of testing of the app the decision was made to add new features to the current application. In the current version, the prototype, it is not possible to create your own sprint as a user. The creation of new content by the user is the most important feature in the new release.
+During my internship at MOBGEN from September 2017 until the end of January of 2018 I have worked on several projects. One of them was an application that helps the facilitator of a design sprint run through their design sprint workshop. The application is a prototype that is used to test if the idea behind the app is useful to a facilitator. It is also used to discover how to further develop it and how to put the application into the market. After some research and a lot of testing by Yoav (who is the founding father of Enso) and also by me and the rest of the Enso team, it became clear that new features were necessary to make the application actually useful. In the current version, the prototype, it is not possible to create your own design sprint as a user. Managing your own design sprints by the user is the most important feature in the new release.
 
-MOBGEN is an Amsterdam based app developer but also has two offices in Spain. One in A Coruna and another one in Malaga. The company is very internationally oriented, and I work together with people from all over the world. That is also the reason to write documents like these in English. MOBGEN was acquired by Accenture in June 2016 and via Accenture it has a giant pool of very big clients. Examples are: Shell, KPN, ABN AMRO and AEGON. MOBGEN is still an independent company inside the Accenture brand, with it’s own clients and offices, and has around 200 employees.
-
-The current prototype of the application is made in React Native and runs on Android and iOS. Besides my graduation project there is another graduation student who is working on the automatic generation of design sprint reports, based on input such as pictures or notes that could be uploaded in the application.
+MOBGEN is an Amsterdam based app developer but also has two offices in Spain. One in A Coruna and another one in Malaga. The company is very internationally oriented, and I work together with people from all over the world. That is also the reason to write documents like this one in English. MOBGEN was acquired by Accenture in June 2016 and via Accenture it has a giant pool of very big clients. Examples are: Shell, KPN, ABN AMRO and AEGON. MOBGEN is still an independent company inside the Accenture brand, with it’s own clients and offices, and has around 200 employees.
 
 ### Problem
-The prototype of the application, named Enso, is being used extensively in design sprints given at MOBGEN. The facilitators of MOBGEN say it is a great tool that allows them to focus more on the design sprint itself instead of on the planning and structuring of the workshop.[^1] The application takes care of that for them. MOBGEN sees that the application is adding value to the company, but also has a point of criticism: the application can only be used internally at MOBGEN. This is because we need one of the employees here to add the agenda that the facilitator made for the workshop to the backend system of the application.
+The prototype of the application, named Enso, is being used extensively in design sprints given at MOBGEN. The facilitators of MOBGEN say it is a great tool that allows them to focus more on the design sprint itself instead of on the planning and structuring of the workshop.[^1] The application takes care of that for them. MOBGEN sees that the application is adding value to the company, but also has a point of criticism: the application can only be used internally at MOBGEN. **The reason the application is currently only usable internally at MOBGEN because when someone want to add a sprint, he or she has to contact Yoav and ask him to add the agenda to the Halo Backend System.**
 
-The most important features of Enso are the sprint agenda, the timer, the list of energisers and the shopping list. The sprint agenda is the planning for the design sprint the facilitator wants to host. In there the week is divided in days and the days have events.
+The most important features of Enso are the sprint agenda, the timer, the list of energisers and the shopping list. The sprint agenda is the planning for the design sprint the facilitator wants to host. The week is divided in days and the days have events.
 
 ![Screenshots of the Enso application](https://www.jobouddeken.nl/images/enso.png)
 
-MOBGEN and the facilitators at MOBGEN would like to see a feature where users of the application can build their own agendas without having to use a separate backend system. This means we have to make the users of the app able to create their own content in-app. The users of this new feature are going to be the facilitators of the design sprints.
+MOBGEN and the facilitators at MOBGEN would like to see a feature where users of the application, facilitators, can build their own agendas without having to use a separate backend system. This means we have to make the facilitators able to configure their own sprints in the application.
 
 ### Context
-With a project like this, there are multiple stakeholders involved. The target audience of the project consists of two separate groups of users, and then we have MOBGEN as a company as a stakeholder.
+#### Stakeholders
+##### Facilitators
+The target audience of the application are people that are facilitating or participating in a design sprint. The first group are the people that are facilitating these design sprint workshops, we call them facilitators. The facilitators are facilitating the workshop and want to create an agenda that reflects their needs and wants. They also want to adjust the agenda when needed, for example when one of the events can not take place because equipment is missing or broke down. Facilitators want to be in full control of the content in their design sprint agenda, and want to be able to change it whenever and wherever they are. (This information comes from the Enso user tests[^1])
 
-The target audience of the application are people that are facilitating or participating in a design sprint. The first group are the people that are facilitating these design sprint workshops, we call them facilitators. The facilitators are facilitating the workshop and want to create an agenda that reflects their needs and wants. They also want to adjust the agenda when needed, for example when one of the events can not take place because equipment is missing or broke down. Facilitators want to be in full control of the content in their design sprint agenda, and want to be able to change it whenever and wherever they are.
+##### Participants
+On the other hand we have the people that are joining and participating in a design sprint, these people can be clients, but also colleagues of the facilitator. These users have a different role and want to do different things than the facilitator. We call this group participants. The participants want to see the agenda and read back what events were about. They also want to know when they have lunch and at what time the day ends. Both the facilitators and participants are users of the application. (This information comes from the Enso user tests[^1])
 
-On the other hand we have the people that are joining and participating in a design sprint, these people can be clients, but also colleagues of the facilitator. These users have a different role and want to do different things than the facilitator. We call this group participants. The participants want to see the agenda and read back what events were about. They also want to know when they have lunch and at what time the day ends. Both the facilitators and participants are users of the application.[^1]
-
+##### MOBGEN
 Finally we have MOBGEN as a stakeholder in the project. MOBGEN is the company that finances the project, and allows me to work on it. In a conversation with the board of MOBGEN[^2], they made clear that they want their brand to come forward into the app and to be able to use the application as a marketing tool. With the application they want to emphasize their leading position in the area of design sprints.
 
-##### Trends
+#### Trends
 Design sprint are a trend in the current creative businesses. The methodology was created by Google Ventures, and was used to improve Google Chrome, Gmail and Google Search. The design sprint methodology is now also used by other big companies like Facebook, Slack and Airbnb[^3]. The method is used by these big companies because: “Companies are getting better and quicker results with the design sprint methodology than with the design thinking process” as Jonathan Courtney states[^4]. It is important to state that design thinking and design sprints are two separate methodologies. The same goes for agile/scrum, design sprints are not part of agile/scrum, but can be really useful in that workflow. The design sprint is a short period of time, mostly 3 or 5 days, where a team together with the client creates a tested prototype.
 
 There are a lot of trends in and around mobile app development. One of them is React Native, the technology that has been used to build the prototype application of Enso[^5]. React Native covers both the iOS and Android platforms, and the code that is written is pure JavaScript which can be used on the web as well. With React Native it is possible for one developer to build an iOS, Android and a web interface with just one language.
 
 Another trend is Progressive Web Apps. This trend is quite new and is not workable yet on iOS, but Apple is working on an update of the iOS software to make this possible[^6]. Progressive Web Apps are expected to be a big thing because of the following reasons: It’s faster than a native application, it does not require an install procedure from the App or Play store and you have access to offline functionalities with service workers.[^7]
 
-##### Opportunities
-The area we aim to serve with the application currently only has one big active competitor. The competitor is another application that tries to help their users run through their design sprints, called Duco[^8]. We think have an advantage over Duco if we accomplish the new personalization function, and can crush the competition with an additional reporting system that is also being built simultaneously with this project. Enso could become a much better tool than Duco in our opinion, and we think Enso has a lot of potential to grow into a big tool.
+#### Opportunities
+The area we aim to serve with the application currently only has one big active competitor. The competitor is another application that tries to help their users run through their design sprints, called Duco[^8]. MOBGEN thinks they can have an advantage over Duco if Enso gets the new configuration function, and can become way bigger than the competition with an additional reporting system that is also being build simultaneously with this project. Enso could become a much better tool than Duco in our opinion, and we think Enso has a lot of potential to grow into a big tool.
 
-##### Threats
+#### Threats
 The biggest threat we face is that the design sprints lose popularity over time. The research company Gartner developed a diagram that can be used to determine if a method is at the top of it’s hype or not. They use the Gartner Hype Cycle Diagram for this, showed in the image below. Gartner believes that ‘Post-Scrum methodologies’ are already over their peak[^9]. ‘Post-Scrum’ includes all agile/scrum methodologies in their diagram.
 
 &nbsp;
@@ -58,7 +58,6 @@ ___
   * Which people take part of a design sprint?
 2. Who is the target audience?
   * What are their needs and wants of the Enso application?
-  * Who are the competitors?
   * What do we have that the competitors don’t have?
 3. What are the problems a facilitator has with the current Enso application?
   * Why do these problems exist, and in what way are they problems?
@@ -97,7 +96,7 @@ ___
   * How can you make sure the code you write will work as expected?
 
 ### Focus
-I want to do what I love, which for me is building a technical solution for a problem. The main focus for me in this project is how to deal with user specific data inside a React Native application, and how to give the user the best experience when editing content inside this application.
+I want to do what I love, which for me is building a technical solution for a problem. **The main focus for me in this project is how to deal with user specific data inside a React Native application, and how to give the user the best experience when editing content inside this application.**
 
 The focus is mostly on the technical part of the project, but also on the UX part. I want to create the best flow for the user, but also high quality code where every decision is backed by research. I can be proud when at the end of the project I have made the target audience happy with a smooth experience and code that is reusable, scalable and maintainable by other developers.
 
@@ -141,6 +140,7 @@ The decisions made on the technical part will be done based on the research of t
 
 ### Planning
 ![Project planning](https://www.jobouddeken.nl/images/planning.png)
+
 ##### Planning description
 I made a planning for the weeks that are still to come. In every week you can see which research question I will tackle, what activities I will take place to do so, and what documents or files will be delivered.
 
