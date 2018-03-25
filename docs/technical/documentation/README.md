@@ -28,7 +28,7 @@ Lastly, React Native has a very big community behind it. There are a lot of pack
 ##### What is it?
 Redux is a predictable state container for Javascript apps. Redux creates a read-only object of data, that only can be updated with pure functions (actions) or reducers. Pure functions are functions that always return the same result, and a reducers is an updater that takes the current state, applies the changes and returns that next state.
 
-![Example of a Redux Store](https://jobouddeken.nl/images/redux-store-debug.png)
+![Example of a Redux Store]({{ book.img }}/redux-store-debug.png)
 The above is an example of a so called Redux Store. The store is the place where all the data is stored and, as stated before, is read-only. With `actions` you can adjust the store. An action looks like this:
 
 ```javascript

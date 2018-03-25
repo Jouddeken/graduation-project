@@ -3,4 +3,4 @@
 ---
 ### Customer Journey
 Click on the image for a larger version.
-[![Customer Journey of the current Enso Application](https://jobouddeken.nl/images/customer-journey.png)](https://jobouddeken.nl/images/customer-journey.png "Click for large")
+[![Customer Journey of the current Enso Application]({{ book.img }}/customer-journey.png)]({{ book.img }}/customer-journey.png "Click for large")

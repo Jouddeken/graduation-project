@@ -9,7 +9,7 @@ A design sprint is a time-constrained, five-phase process that reduces the risks
 
 Design thinking is very popular, but according to the hype cycle of Gartner it’s already over the top[^3]. We have to keep an eye out for any new methodology that comes around the corner that is possibly going to be more popular than agile/scrum.
 
-![Gartner Hype Cycle for agile development methodologies](https://jobouddeken.nl/images/gartner-hype-cycle-agile-methodologies.png)
+![Gartner Hype Cycle for agile development methodologies]({{ book.img }}/gartner-hype-cycle-agile-methodologies.png)
 
 Post Scrum Methodologies is over the top of the cycle in the diagram above.
 
@@ -25,7 +25,7 @@ The big downside about this application is that the design sprint they offer in 
 
 The Duco application screenshots:[^5]
 
-![Duco screenshots](https://jobouddeken.nl/images/duco.png)
+![Duco screenshots]({{ book.img }}/duco.png)
 
 ####Google Design Sprint Kit[^6]
 **_A Design Sprint Website by Google_**

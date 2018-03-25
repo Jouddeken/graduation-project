@@ -7,8 +7,8 @@ I chatted with three facilitators of MOBGEN that have used the Enso application.
 
 ### Facilitator
 Click on the image for a larger version.
-[![Persona facilitator](https://jobouddeken.nl/images/persona-facilitator.png)](https://jobouddeken.nl/images/persona-facilitator.png "Click for large")
+[![Persona facilitator]({{ book.img }}/persona-facilitator.png)]({{ book.img }}/persona-facilitator.png "Click for large")
 
 ### Participant
 Click on the image for a larger version.
-[![Persona participant](https://jobouddeken.nl/images/persona-participant.png)](https://jobouddeken.nl/images/persona-participant.png "Click for large")
+[![Persona participant]({{ book.img }}/persona-participant.png)]({{ book.img }}/persona-participant.png "Click for large")

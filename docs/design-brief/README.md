@@ -12,7 +12,7 @@ The prototype of the application, named Enso, is being used extensively in desig
 
 The most important features of Enso are the sprint agenda, the timer, the list of energisers and the shopping list. The sprint agenda is the planning for the design sprint the facilitator wants to host. The week is divided in days and the days have events.
 
-![Screenshots of the Enso application](https://www.jobouddeken.nl/images/enso.png)
+![Screenshots of the Enso application]({{ book.img }}/enso.png)
 
 MOBGEN and the facilitators at MOBGEN would like to see a feature where users of the application, facilitators, can build their own agendas without having to use a separate backend system. This means we have to make the facilitators able to configure their own sprints in the application.
 
@@ -41,7 +41,7 @@ The area we aim to serve with the application currently only has one big active 
 The biggest threat we face is that the design sprints lose popularity over time. The research company Gartner developed a diagram that can be used to determine if a method is at the top of it’s hype or not. They use the Gartner Hype Cycle Diagram for this, showed in the image below. Gartner believes that ‘Post-Scrum methodologies’ are already over their peak[^9]. ‘Post-Scrum’ includes all agile/scrum methodologies in their diagram.
 
 &nbsp;
-![Gartner Hype Cycle](https://www.jobouddeken.nl/images/gartner-hype-cycle.png)
+![Gartner Hype Cycle]({{ book.img }}/gartner-hype-cycle.png)
 
 Design sprints are not necessary in an agile/scrum project, but can be really useful. Design sprints can also be used outside of a agile/scrum system, and were introduced way after agile/scrum was introduced. I don’t think agile/scrum will be going away anytime soon, as most of the big companies are working with it[^3]. Still, we have to be aware that design sprints can lose their value and the industry will move to another method where Enso cannot be used anymore.
 
@@ -139,7 +139,7 @@ By answering these questions I will have the UX sketches that I can use to start
 The decisions made on the technical part will be done based on the research of the above questions. These questions will help me make the right decisions in the code base to create a product that can be picked up by another developer, but also can be used to add new features to the application.
 
 ### Planning
-![Project planning](https://www.jobouddeken.nl/images/planning.png)
+![Project planning]({{ book.img }}/planning.png)
 
 ##### Planning description
 I made a planning for the weeks that are still to come. In every week you can see which research question I will tackle, what activities I will take place to do so, and what documents or files will be delivered.
