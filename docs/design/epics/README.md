@@ -3,4 +3,4 @@
 ---
 
 ### Epics
-- [create-sprint](./create-sprint.md)
+- [create-sprint](./create-sprint/README.md)

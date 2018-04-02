@@ -1,3 +1,0 @@
-# User stories 📝
-###### create-sprint
----

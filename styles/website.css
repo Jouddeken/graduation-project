@@ -1,0 +1,32 @@
+.gist .gist-file .gist-data table tr {
+  background-color: transparent;
+  border-top: none;
+}
+.gist .gist-file .gist-data table td {
+  background-color: transparent;
+  border: none;
+}
+.gist .gist-file .gist-data {
+  border-bottom: none;
+}
+.gist .gist-file .gist-meta {
+  display: none;
+}
+.gist .gist-file .gist-data .blob-wrapper {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.markdown-section ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 1em;
+}
+.markdown-section ul > li {
+  text-indent: -5px;
+}
+.markdown-section ul > li:before {
+  content: "-";
+  margin-right: 10px;
+  text-indent: -5px;
+}

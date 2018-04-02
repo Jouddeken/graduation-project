@@ -5,10 +5,12 @@
 Student:    Job Ouddeken
 Mentor:     Sonja Rouwhorst
 Client:     MOBGEN | Accenture Interactive
-Date:       19-03-2018
+Date:       -
 Version:    1.4.0
 </pre>
 </center>
 
 ## Introduction 🙋🏻‍
 This online document is currently alive! This is where I show the progress in my graduation project and where I upload all deliverables and research I did. Navigate with the menu on the left.
+
+<!-- <script>var date=new Date();var day=date.getDate();day<=9 ? day='0'+day : day;var month=date.getMonth()+1;month<=9 ? month='0'+month : month;var year=date.getFullYear();document.write(day+'-'+month+'-'+year);</script> -->
