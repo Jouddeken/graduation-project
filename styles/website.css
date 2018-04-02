@@ -30,3 +30,41 @@
   margin-right: 10px;
   text-indent: -5px;
 }
+
+.summary > .chapter > a {
+  font-weight: bold;
+}
+.summary .chapter .articles .chapter .articles {
+  font-size: 95%;
+}
+.summary .chapter .articles .chapter .articles .chapter a {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.book.color-theme-2 .book-summary ul.summary li.active > a, .book.color-theme-2 .book-summary ul.summary li a:hover {
+  margin-left: -900px;
+  padding-left: 915px;
+}
+
+.book-summary {
+  background-color: #fff;
+}
+
+#book-search-input input {
+  display: none;
+}
+#book-search-input {
+  padding: 20px 15px;
+}
+.color-theme-1 #book-search-input {
+  background-color: #111;
+  border-bottom-color: #877f6a;
+}
+.color-theme-2 #book-search-input {
+  background-color: #2d3143;
+  border-bottom-color: #c1c6d7;
+}
+#book-search-input:after {
+  content: "Enso Graduation Project"
+}
