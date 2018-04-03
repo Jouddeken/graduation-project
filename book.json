@@ -1,7 +1,7 @@
 {
   "gitbook": "3.2.3",
-  "title": "Configuring design sprints in the Enso application &mdash; A graduation Project by Job Ouddeken",
-  "description": "Research document for my graduation project",
+  "title": "Configuring sprints in the Enso application",
+  "description": "Configuring design sprints in the Enso application &mdash; A graduation Project by Job Ouddeken",
   "language": "en",
   "direction": "rtl",
   "structure": {
@@ -10,10 +10,6 @@
   "variables": {
     "img": "https://jobouddeken.nl/images",
     "gist": "https://gist.github.com/Jouddeken"
-  },
-  "pdf": {
-    "headerTemplate": "_TITLE_",
-    "footerTemplate": "_AUTHOR_ | _TITLE_ | _PAGENUM_"
   },
   "plugins": [
     "gist"
