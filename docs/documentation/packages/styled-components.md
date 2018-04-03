@@ -17,3 +17,12 @@ With Styled Components the same component looks like this:
 
 ##### Why Styled Components?
 As you can see the Styled Components way adds one more file to the amount of files needed, but will make it much easier to reuse components that have been made. The syntax to create a new Styled Component is also shorter than using the default React Native `StyleSheet.create();` function. The Glamorous package is a great competitor to Styled Components, but since MOBGEN was already using Styled Components in web projects and I already knew the package I chose for Styled Components. The last package in the alternatives list is the React Native Tachyons package. This package gives you shortcuts like `flx-i` and `asfs` to use on your components. The `flx-i` stands for `flex: 1` and `asfs` stands for `align-self: flex-start`. I don't think this method is very readable, as a developer you have to know the Tachyons package to make use of this. It makes the code less readable for another developer.
+
+---
+
+##### References
+- Open source (Styled Components). (Date unknown). Styled Components GitHub. Consulted on 31-03-2018 from: https://github.com/styled-components/styled-components
+- Open Source (Facebook). (Date unknown). Style in React Native. Consulted on 31-03-2018 from: https://facebook.github.io/react-native/docs/style.html
+- Open source (Glamorous Native). (Date unknown). Glamorous Native GitHub. Consulted on 31-03-2018 from: https://github.com/robinpowered/glamorous-native
+- Open source (React Native Tachyons). (Date unknown). React Native Tachyons GitHub. Consulted on 31-03-2018 from: https://github.com/tachyons-css/react-native-style-tachyons
+- Research done during internship from 01-11-2017 till 19-02-2018

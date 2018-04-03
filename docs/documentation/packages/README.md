@@ -11,7 +11,6 @@
 - [Redux Persist](./redux-persist.md)
 - [Recompose](./recompose.md)
 - [Styled Components](./styled-components.md)
-- [Eslint](./eslint.md)
 - [Jest](./jest.md)
 
 <br />

@@ -7,3 +7,8 @@ _Soon to come, stay tuned_ 🎶
 
 ##### Why Jest?
 _Soon to come, stay tuned_ 🎶
+
+---
+
+##### References
+_Soon to come, stay tuned_ 🎶

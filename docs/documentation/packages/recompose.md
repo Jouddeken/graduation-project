@@ -9,3 +9,9 @@ Higher order components are a hard subject to fully understand, and some develop
 
 ##### Why Recompose?
 Recompose is really specifically made for React. There are no competitors out there that do the same as Recompose does. You can choose to not use Recompose, this would mean writing the HOC's yourself. This is exactly the same as when you use the lodash package, it gives you a bunch of functions you can use in your application. These functions are not extremely hard to make, but are nice to have out of the box and to know they are working correctly. Another benefit of using the Recompose package is again that it is easier to test the functions, which is another reason to use the package.
+
+---
+
+##### References
+- Open source (Recompose). (Date unknown). Recompose GitHub. Consulted on 30-03-2018 from: https://github.com/acdlite/recompose
+- Research done during internship from 01-11-2017 till 19-02-2018

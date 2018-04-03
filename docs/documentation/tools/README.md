@@ -3,5 +3,6 @@
 ---
 
 ### Tools
+- [Eslint](./eslint.md)
 - [Halo](./halo.md)
 - [Jira](./Jira.md)

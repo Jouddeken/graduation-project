@@ -15,3 +15,9 @@ Because Reselect is specifically made for Redux (or Flux, the old version of Red
 
 ##### Why Reselect?
 Reselect was used because it was the only option there was, and because it is so well integrated in the Redux ecosystem. With the Reselect package you can write more functions you can reuse easier, which is one of the concepts of good code. Without the Reselect package the code is less testable and harder to read.
+
+---
+
+##### References
+- Open source (Reselect). (Date unknown). Reselect GitHub. Consulted on 29-03-2018 from: https://github.com/reactjs/reselect
+- Research done during internship from 01-11-2017 till 19-02-2018

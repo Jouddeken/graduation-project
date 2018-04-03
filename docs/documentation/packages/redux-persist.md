@@ -4,6 +4,17 @@ Redux Persist is another package that can only be used with Redux. As explained 
 
 ##### Alternatives
 - Local SQL Database
+- Firebase
+- Realm
 
 ##### Why Redux Persist?
-Redux Persist was chosen over a local SQL database because creating a local SQL database would take much more time for every new feature. You would have to decide which values you want to store and write function to store those values in the database. Redux Persist is widely used in the React (Native) community (5000+ stars on GitHub), and is a very mature package. The package itself is really easy to use, and does most of the work out of the box.
+Redux Persist was chosen over a local SQL database because creating a local SQL database would take much more time for every new feature. You would have to decide which values you want to store and write function to store those values in the database. Firebase could be used but is more work than the Redux Persist way. Realm is not an option because I want to code to possibly be reused on web.
+
+Redux Persist is widely used in the React (Native) community (5000+ stars on GitHub), and is a very mature package. The package itself is really easy to use, and does most of the work out of the box.
+
+---
+
+##### References
+- Open source (Redux Persist). (Date unknown). Redux Persist GitHub. Consulted on 30-03-2018 from: https://github.com/rt2zz/redux-persist
+- Filipe Borges. 14-06-2017. Stackoverflow answer. Consulted on 30-03-2018 from: https://stackoverflow.com/questions/44376002/what-are-my-options-for-storing-data-when-using-react-native-ios-and-android#answer-44549668
+- Research done during internship from 01-11-2017 till 19-02-2018

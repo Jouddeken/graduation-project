@@ -1,14 +1,14 @@
 ## [React Native](https://facebook.github.io/react-native/)
 ##### What is it?
-React Native is the native version of the [React.js](https://reactjs.org) language used for the web. It allows a developer to create an iOS and Android application with a single codebase. The React Native code compiles to Objective-C and Java, which can be run on iOS and Android respectively. By that way you create native apps with Javascript code. The framework was developed by Facebook, who also made the [React.js](https://reactjs.org) library for the web. React Native is being used by Facebook itself, Airbnb, Skype, Tesla and Wallmart.[^1]
+React Native is the native version of the [React.js](https://reactjs.org) language used for the web. It allows a developer to create an iOS and Android application with a single codebase. The React Native code compiles to Objective-C and Java, which can be run on iOS and Android respectively. By that way you create native apps with Javascript code. The framework was developed by Facebook, who also made the [React.js](https://reactjs.org) library for the web. React Native is being used by Facebook itself, Airbnb, Skype, Tesla and Wallmart.
 
 ##### Alternatives
 There are some alternatives for React Native:
-- [Ionic](https://ionicframework.com/) [^2]
-- [PhoneGap/Cordova](https://cordova.apache.org/) [^2]
-- [Xamarin](https://www.xamarin.com/) [^2]
-- [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) [^2]
-- [Flutter](https://flutter.io/) [^3]
+- [Ionic](https://ionicframework.com/)
+- [PhoneGap/Cordova](https://cordova.apache.org/)
+- [Xamarin](https://www.xamarin.com/)
+- [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
+- [Flutter](https://flutter.io/)
 - Native iOS and native Android
 
 ##### Why React Native?
@@ -24,7 +24,10 @@ Another reason was that MOBGEN is working a lot with React, and in the case of a
 
 Lastly, React Native has a very big community behind it. There are a lot of packages from the React community that can also be used in React Native, but there are also a lot of packages made specifically for React Native by the community.
 
-### References
-[^1]: Facebook. (Date unknown). React Native. Consulted on 23-03-2018 from: https://facebook.github.io/react-native/
-[^2]: Kukic, Ado. (10-01-2017). Alternatives to Native Mobile App Development. Consulted on 23-03-2018 from: https://auth0.com/blog/alternatives-to-native-mobile-app-development/
-[^3]: Google. (Date unknown). Flutter. Consulted on 223-03-2018 from: https://flutter.io/
+---
+
+##### References
+- Facebook. (Date unknown). React Native. Consulted on 23-03-2018 from: https://facebook.github.io/react-native/
+- Kukic, Ado. (10-01-2017). Alternatives to Native Mobile App Development. Consulted on 23-03-2018 from: https://auth0.com/blog/alternatives-to-native-mobile-app-development/
+- Google. (Date unknown). Flutter. Consulted on 223-03-2018 from: https://flutter.io/
+- Research done during internship from 01-11-2017 till 19-02-2018

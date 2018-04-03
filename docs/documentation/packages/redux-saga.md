@@ -24,3 +24,12 @@ Promises were also not the correct solutions because they can not be cancelled. 
 The third option, Redux-thunk, uses the ES2017 async/await functionalities. This is a good competitor and is used by a lot of people (8.355 stars on GitHub). The downside of Redux-thunk is that it is not as easy to test as Redux Saga. Another key factor in writing good code is to test your code with unit-tests and other tests. For the above reasons Redux Saga was used in the project.
 
 In short: Redux Saga was used to prevent callback hell, be able to cancel functions/requests and to be able to test the code as good as possible.
+
+---
+
+##### References
+- Open Source (Redux Saga). (Date unknown). Redux Saga GitHub. Consulted on 29-03-2018 from: https://github.com/redux-saga/redux-saga
+- Multiple Authors. 27-03-2018. MDN WebDocs Callback function. Consulted on 29-03-2018 from: https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+- Multiple Authors. 26-03-2018. MDN WebDocs Using promises. Consulted on 29-03-2018 from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+- Open Source (Redux Thunk). (Date unknown). Redux Thunk GitHub. Consulted on 29-03-2018 from: https://github.com/gaearon/redux-thunk
+- Research done during internship from 01-11-2017 till 19-02-2018

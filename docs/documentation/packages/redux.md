@@ -34,3 +34,11 @@ Redux is more manual than MobX, and for the Enso project that is what I needed. 
 Realm is only usable by React Native and node.js applications, and because there were some vague plans of making a web port of the React Native application I wanted to use as much packages as possible that could be used on Native and web.
 
 The reason I chose for Redux is because of the many packages I can integrate into the Redux environment. Examples of those packages are Redux Saga, Reselect and Redux Persist. These packages are also being used in web apps, so that is a big bonus in the reusable aspect of the code. Redux is also very well supported by a massive community.
+
+---
+
+##### References
+- Open Source (Redux). (Date unknown). Redux GitHub. Consulted on 29-03-2018 from: https://redux.js.org/
+- Open Source (MobX). (Date unknown). MobX documentation. Consulted on 29-03-2018 from: https://mobx.js.org/
+- Open Source (Realm). (Date unknown). Realm. Consulted on 29-03-2018 from: https://realm.io/
+- Research done during internship from 01-11-2017 till 19-02-2018
