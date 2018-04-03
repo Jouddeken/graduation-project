@@ -1,4 +1,4 @@
-#### navigation
+#### set-sprint-navigation
 **As a** user of the Enso application <br />
 **I want** to navigate in the create sprint flow <br />
 **So that I** can create my sprints but also go back to adjust a value

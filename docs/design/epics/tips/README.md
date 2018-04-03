@@ -1,20 +1,20 @@
 # [epic title]
 ###### Epic
 ---
-#### Description
+### Description
 
 
-#### Problem
+### Problem
 
 
-#### High level proposal
+### High level proposal
 
 
-#### Value to users
+### Value to users
 
 
-#### Value to MOBGEN
+### Value to MOBGEN
 
 
-#### User stories
+### User stories
 -

@@ -7,8 +7,8 @@
 | 1 | Create Sprints | 1.1 | Set sprint name | Must |
 |   |   | 1.2 | Set sprint challenge | Must |
 |   |   | 1.3 | Set sprint start date | Should |
-|   |   | 1.4 | Set number of people | Could |
-|   |   | 1.5 | Select a sprint team | Could |
+|   |   | 1.4 | Set number of people | Should |
+|   |   | 1.5 | Select a sprint team | Won't |
 |   |   | 1.6 | Select a sprint template | Must |
 |   |   | 1.7 | Select a blank sprint template | Won't |
 |   |   | 1.8 | Select number of sprint days in blank template | Won't |
@@ -16,13 +16,14 @@
 | &mdash; |   |   |   |   |
 | 2 | Edit created sprints | 2.1 | Edit sprint name | Should |
 |   |   | 2.2 | Edit sprint challenge | Should |
-|   |   | 2.3 | Edit sprint date | Could |
+|   |   | 2.3 | Edit sprint date | Should |
 |   |   | 2.4 | Edit sprint people | Could |
+|   |   | 2.5 | Delete created sprint | Should |
 | &mdash; |   |   |   |   |
 | 3 | Edit sprint agendas | 3.1 | Add events from a predefined list | Must |
 |   |   | 3.2 | Remove events from sprint agenda | Must |
 |   |   | 3.3 | Edit the events order | Must |
-|   |   | 3.4 | Edit the agenda day start time | Could |
+|   |   | 3.4 | Edit the agenda day start time | Should |
 | &mdash; |   |   |   |   |
 | 4 | Edit predefined events | 4.1 | Edit event duration | Should |
 | &mdash; |   |   |   |   |

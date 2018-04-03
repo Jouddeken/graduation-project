@@ -1,4 +1,4 @@
-# Create Sprint
+# create-sprints
 ###### Epic
 ---
 ### Description
@@ -22,4 +22,4 @@ Adding this feature will show off MOBGEN's leading role in the area of design sp
 {% include "./set-sprint-start-date.md" %}
 {% include "./set-sprint-people.md" %}
 {% include "./set-sprint-template.md" %}
-{% include "./navigation.md" %}
+{% include "./set-sprint-navigation.md" %}

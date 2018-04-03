@@ -29,5 +29,5 @@ Lastly, React Native has a very big community behind it. There are a lot of pack
 ##### References
 - Facebook. (Date unknown). React Native. Consulted on 23-03-2018 from: https://facebook.github.io/react-native/
 - Kukic, Ado. (10-01-2017). Alternatives to Native Mobile App Development. Consulted on 23-03-2018 from: https://auth0.com/blog/alternatives-to-native-mobile-app-development/
-- Google. (Date unknown). Flutter. Consulted on 223-03-2018 from: https://flutter.io/
+- Google. (Date unknown). Flutter. Consulted on 23-03-2018 from: https://flutter.io/
 - Research done during internship from 01-11-2017 till 19-02-2018
