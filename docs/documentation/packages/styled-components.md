@@ -3,12 +3,12 @@
 Styled Components is a styling library that originally was made for the React web package. In version 3 it was possible to use the package with React Native, but there were some performance issues with it. Now that version 4 is released and those problems are gone, developers can use the package to make styling components in React Native easy. Without Styled Components a component with some styling may look like the following:
 
 <!-- Gist: React Native styling -->
-<script src="{{ book.gist }}/230ceab078623837d0253fa799e7b666.js"></script>
+{% gist id="230ceab078623837d0253fa799e7b666" %}{% endgist %}
 
 With Styled Components the same component looks like this:
 
 <!-- Gist: Styled Component -->
-<script src="{{ book.gist }}/f52d052280243def442dce4c68b1c14c.js"></script>
+{% gist id="f52d052280243def442dce4c68b1c14c" %}{% endgist %}
 
 ##### Alternatives
 - [React Native's `StyleSheet.create();`](https://facebook.github.io/react-native/docs/style.html)

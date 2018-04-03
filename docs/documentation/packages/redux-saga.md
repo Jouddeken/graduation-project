@@ -5,7 +5,7 @@ Redux Saga is a library that helps you handle side effects in your application. 
 An example of a Redux Saga is:
 
 <!-- Gist: Redux saga function -->
-<script src="{{ book.gist }}/737dd3d5b79a7840ea7e1fcc8959be3b.js"></script>
+{% gist id="737dd3d5b79a7840ea7e1fcc8959be3b" %}{% endgist %}
 
 The saga above is watching for the `FETCH_ALL_DATA` action to be fired. When that happens the watcher function fires the `getDataFromApi` function. The `getDataFromApi` function fires an action at the moment it is initiated. This can be used to display a loader for example. It then selects a token that is stored in the Redux store with a selector (more on selectors later). When it has received the token it calls the `fetchApiData` function that fires a fetch function to get some data from an API. The last step in this saga is to put an action with the data coming from the API call as payload.
 

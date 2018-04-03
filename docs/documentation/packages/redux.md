@@ -17,12 +17,12 @@ To specify how the state tree is transformed by actions, you write pure reducers
 Redux creates a object tree for the application in a so called store. The above is an example of a so called Redux Store. Only with actions you can adjust the store. An action is a pure function and can look like this:
 
 <!-- Gist: Redux action function -->
-<script src="{{ book.gist }}/8f423c9307b84476e9875651eeb29ac0.js"></script>
+{% gist id="8f423c9307b84476e9875651eeb29ac0" %}{% endgist %}
 
 The only way the store can be transformed is via reducers. Reducer functions take the current state of the store and the fired action as arguments and returns the updated state. A reducer can look like this:
 
 <!-- Gist: Redux reducer function -->
-<script src="{{ book.gist }}/ad33aeefa5df7723ec98a3ab715fb6f9.js"></script>
+{% gist id="ad33aeefa5df7723ec98a3ab715fb6f9" %}{% endgist %}
 
 ##### Alternatives
 - [MobX](https://mobx.js.org/)

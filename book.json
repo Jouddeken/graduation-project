@@ -14,5 +14,8 @@
   "pdf": {
     "headerTemplate": "_TITLE_",
     "footerTemplate": "_AUTHOR_ | _TITLE_ | _PAGENUM_"
-  }
+  },
+  "plugins": [
+    "gist"
+  ]
 }
