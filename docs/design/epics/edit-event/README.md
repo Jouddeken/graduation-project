@@ -1,4 +1,4 @@
-# [epic title]
+# edit-event
 ###### Epic
 ---
 ### Description

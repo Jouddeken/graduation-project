@@ -1,4 +1,4 @@
-# edit-sprint-agendas
+# edit-agenda
 ###### Epic
 ---
 ### Description
@@ -17,7 +17,6 @@ Users are able to edit their agendas.
 Making users able to edit the agenda is essential for a good user experience. We want to give the user the possibility to create their own sprints and also edit their agendas. This will make the app look professional and well thought through.
 
 ### User stories
-{% include "./edit-agenda-add-event.md" %}
-{% include "./edit-agenda-change-starttime.md" %}
 {% include "./edit-agenda-change-order.md" %}
+{% include "./edit-agenda-mark-completed.md" %}
 {% include "./edit-agenda-remove-event.md" %}

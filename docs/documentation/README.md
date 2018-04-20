@@ -1,23 +1,6 @@
 # Application Documentation 📚
 ###### Programming concepts, packages and tools
 ---
+In this section I describe the packages, methodologies and ways of working applied in this project. I explain how they work and how I applied them in the project, show the alternatives there are, and compare them to the competitors.
 
-### Concepts
-- [Git Flow](concepts/git-flow.md)
-- [Smart and Dumb components](concepts/smart-dumb-components.md)
-
-### Packages
-- [React Native](packages/react-native.md)
-- [React Navigation](packages/react-navigation.md)
-- [Redux](packages/redux.md)
-- [Redux Saga](packages/redux-saga.md)
-- [Reselect](packages/reselect.md)
-- [Redux Persist](packages/redux-persist.md)
-- [Recompose](packages/recompose.md)
-- [Styled Components](packages/styled-components.md)
-- [Eslint](packages/eslint.md)
-- [Jest](packages/jest.md)
-
-### Tools
-- [Halo](tools/halo.md)
-- [Jira](tools/Jira.md)
+I give a solution for the problems I faced in the project, such as choosing a framework, setting up the project, handling all the data, styling components and working with version control.

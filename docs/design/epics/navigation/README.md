@@ -1,4 +1,4 @@
-# [epic title]
+# navigation
 ###### Epic
 ---
 ### Description

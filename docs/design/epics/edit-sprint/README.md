@@ -1,11 +1,11 @@
-# edit-created-sprints
+# edit-sprint
 ###### Epic
 ---
 ### Description
 Make users able to edit the sprints they created in the Enso application.
 
 ### Problem
-In the current version of the Enso application it is not possible to create sprints and thus to edit those created sprints. In the new version a user should be able to edit a created sprint.
+In the current version of the Enso application it is not possible to create sprints and thus to edit created sprints. In the new version a user should be able to edit a created sprint.
 
 ### High level proposal
 The new feature should be implemented using the new Enso art direction.
@@ -19,5 +19,9 @@ Making users able to edit the sprints is essential for a good user experience. O
 ### User stories
 {% include "./edit-sprint-name.md" %}
 {% include "./edit-sprint-challenge.md" %}
+{% include "./edit-sprint-template.md" %}
 {% include "./edit-sprint-start-date.md" %}
+{% include "./edit-sprint-participants.md" %}
+{% include "./edit-sprint-day-titles.md" %}
+{% include "./edit-sprint-day-start-times.md" %}
 {% include "./delete-created-sprint.md" %}

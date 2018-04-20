@@ -19,6 +19,7 @@
 
 .markdown-section ul {
   margin: 0;
+  margin-bottom: .85em;
   list-style-type: none;
   padding-left: 1em;
 }
@@ -67,4 +68,8 @@
 }
 #book-search-input:after {
   content: "Enso Graduation Project"
+}
+
+.disqus-thread {
+  margin-top: 16rem;
 }
