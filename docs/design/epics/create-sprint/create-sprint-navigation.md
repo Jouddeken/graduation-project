@@ -12,5 +12,3 @@ The user should be able to navigate smoothly between the pages of the create-spr
 - On iOS swiping from left to right should navigate a screen back
 - The user should be able to go back one screen at any point of the flow
 - The user should be able to skip the create-sprint-challenge and the create-sprint-participants steps
-
----

@@ -7,4 +7,3 @@
 - [edit-created-sprints](./edit-created-sprints/README.md)
 - [edit-event](./edit-event/README.md)
 - [edit-sprint-agendas](./edit-sprint-agendas/README.md)
-- [navigation](./navigation/README.md)

@@ -1,4 +1,4 @@
-#### delete-created-sprint
+#### delete-sprint
 **As a** user of the Enso application <br />
 **I want** to delete a created sprint <br />
 **So that I** can clean up my sprints or delete an incorrect one
