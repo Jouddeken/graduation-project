@@ -70,6 +70,7 @@
   content: "Enso Graduation Project"
 }
 
-.disqus-thread {
-  margin-top: 16rem;
+nav > ul.summary > li.divider,
+nav > ul.summary > li:last-of-type {
+  display: none;
 }

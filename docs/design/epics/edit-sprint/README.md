@@ -33,4 +33,4 @@ Making users able to edit the sprints is essential for a good user experience. O
 {% include "./edit-sprint-participants.md" %}
 {% include "./edit-sprint-day-titles.md" %}
 {% include "./edit-sprint-day-start-times.md" %}
-{% include "./delete-sprint.md" %}
+{% include "./edit-sprint-delete-sprint.md" %}

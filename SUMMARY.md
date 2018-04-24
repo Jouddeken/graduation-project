@@ -21,7 +21,7 @@
     * [edit-agenda](docs/design/epics/edit-agenda/README.md)
     * [edit-event](docs/design/epics/edit-event/README.md)
   * [Best Practices](docs/design/best-practices/README.md)
-  * [UX Sketches](docs/design/ux-sketches/README.md)
+  * [UX Prototype](docs/design/ux-sketches/README.md)
   * [UX User tests](docs/design/ux-user-tests/README.md)
 * [Technical Phase](docs/technical/README.md)
   * [Restrictions of React Native](docs/technical/react-native-restrictions.md)

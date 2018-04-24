@@ -28,4 +28,3 @@ Adding this feature will show off MOBGEN's leading role in the area of design sp
 {% include "./create-sprint-template.md" %}
 {% include "./create-sprint-start-date.md" %}
 {% include "./create-sprint-participants.md" %}
-{% include "./create-sprint-navigation.md" %}
