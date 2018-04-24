@@ -1,4 +1,4 @@
-#### create-sprint-participants
+#### ENS-105: create-sprint-participants
 **As a** user of the Enso application <br />
 **I want** to set a number of participants in my sprint <br />
 **So that I** can adjust my planning/durations and equipment based on that
@@ -15,5 +15,3 @@ A user of the Enso application should be able to set the number of participants 
 - User should be able to skip this step by clicking on 'skip'
 - By clicking the enter button at the bottom of the screen, the user should be taken to their newly created sprint, as this is the last step in the process.
 - The keyboard should automatically be activated when entering this screen
-
----

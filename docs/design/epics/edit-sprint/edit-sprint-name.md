@@ -1,4 +1,4 @@
-#### edit-sprint-name
+#### ENS-201: edit-sprint-name
 **As a** user of the Enso application <br />
 **I want** to change the created sprints name <br />
 **So that I** can correct any mistakes or set a new name

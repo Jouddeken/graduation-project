@@ -1,4 +1,4 @@
-#### edit-event-equipment
+#### ENS-403: edit-event-equipment
 **As a** user of the Enso application <br />
 **I want** to change the equipments of the events in my agenda <br />
 **So that I** can personalize the equipments for every exercise

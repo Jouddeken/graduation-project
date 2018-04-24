@@ -1,4 +1,4 @@
-#### edit-agenda-change-order
+#### ENS-301: edit-agenda-change-order
 **As a** user of the Enso application <br />
 **I want** to change the order of the events in an agenda <br />
 **So that I** can configure the agenda to my needs

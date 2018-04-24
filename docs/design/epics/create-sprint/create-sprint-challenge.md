@@ -1,4 +1,4 @@
-#### create-sprint-challenge
+#### ENS-102: create-sprint-challenge
 **As a** user of the Enso application <br />
 **I want** to set a sprint challenge for my sprint <br />
 **So that I** can see the goal of the sprint

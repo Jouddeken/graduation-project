@@ -1,4 +1,4 @@
-#### edit-sprint-day-titles
+#### ENS-206: edit-sprint-day-titles
 **As a** user of the Enso application <br />
 **I want** to change the created sprints day titles <br />
 **So that I** can change them to something that suits my sprint

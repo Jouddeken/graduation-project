@@ -1,4 +1,4 @@
-#### edit-agenda-remove-event
+#### ENS-303: edit-agenda-remove-event
 **As a** user of the Enso application <br />
 **I want** to remove events from my sprint agenda <br />
 **So that I** can delete events I don't want to have in my agenda

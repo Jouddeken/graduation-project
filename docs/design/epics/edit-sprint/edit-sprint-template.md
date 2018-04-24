@@ -1,4 +1,4 @@
-#### edit-sprint-template
+#### ENS-203: edit-sprint-template
 **As a** user of the Enso application <br />
 **I want** to change the created sprints templates <br />
 **So that I** can use a different one if I want to

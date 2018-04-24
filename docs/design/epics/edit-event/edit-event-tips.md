@@ -1,4 +1,4 @@
-#### edit-event-tips
+#### ENS-402: edit-event-tips
 **As a** user of the Enso application <br />
 **I want** to change the tips of the events in my agenda <br />
 **So that I** can personalize the tips for every exercise

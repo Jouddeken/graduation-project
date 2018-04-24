@@ -1,4 +1,4 @@
-#### edit-sprint-participants
+#### ENS-205: edit-sprint-participants
 **As a** user of the Enso application <br />
 **I want** to change the created sprints participants <br />
 **So that I** can correct that value if someone is not able to come or there are more people joining

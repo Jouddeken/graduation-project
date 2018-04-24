@@ -1,4 +1,4 @@
-#### edit-agenda-add-event
+#### ENS-304: edit-agenda-add-event
 **As a** user of the Enso application <br />
 **I want** to add events to my sprint agenda <br />
 **So that I** can configure my own sprint

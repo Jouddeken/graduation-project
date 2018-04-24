@@ -1,4 +1,4 @@
-#### edit-sprint-challenge
+#### ENS-202: edit-sprint-challenge
 **As a** user of the Enso application <br />
 **I want** to change the created sprints challenge <br />
 **So that I** can correct any mistakes or set a new challenge

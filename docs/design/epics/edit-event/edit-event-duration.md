@@ -1,4 +1,4 @@
-#### edit-event-duration
+#### ENS-401: edit-event-duration
 **As a** user of the Enso application <br />
 **I want** to change the duration of the events in my agenda <br />
 **So that I** can adjust the planning to my needs

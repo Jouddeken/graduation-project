@@ -1,4 +1,4 @@
-#### edit-event-visual
+#### ENS-404: edit-event-visual
 **As a** user of the Enso application <br />
 **I want** to change the visual of the events in my agenda <br />
 **So that I** can select one that I like
