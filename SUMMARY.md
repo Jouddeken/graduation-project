@@ -20,7 +20,7 @@
     * [edit-sprint](docs/design/epics/edit-sprint/README.md)
     * [edit-agenda](docs/design/epics/edit-agenda/README.md)
     * [edit-event](docs/design/epics/edit-event/README.md)
-  * [Best Practices](docs/design/best-practices/README.md)
+  * [Pattern research](docs/design/pattern-research/README.md)
   * [UX Prototype](docs/design/ux-prototype/README.md)
   * [UX User tests](docs/design/ux-user-tests/README.md)
 * [Technical Phase](docs/technical/README.md)

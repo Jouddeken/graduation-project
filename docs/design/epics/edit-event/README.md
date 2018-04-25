@@ -2,7 +2,12 @@
 ###### Epic
 ---
 ### Description
-Make users able to edit certain info of events in the templates.
+Make users able to edit certain info of events in the templates. This means the user can change the following:
+
+- Edit the event's duration (edit-event-duration)
+- Edit the event's tips (edit-event-tips)
+- Edit the event's equipment (edit-event-equipment)
+- Edit the event's visual (edit-event-visual)
 
 ### Problem
 In the current version of the Enso application it is not possible to edit anything in the application, so editing events is also not possible. In the new version the user can create sprints and agendas that contain events. Some of this data should be editable.

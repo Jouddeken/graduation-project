@@ -53,47 +53,47 @@ ___
 ### Research questions
 ##### Concept
 1. What is a design sprint and how do you facilitate one?
-  * What is the goal of a design sprint?
-  * What is the normal procedure for a design sprint?
-  * Which people take part of a design sprint?
+<br/>1.1. What is the goal of a design sprint?
+<br/>1.2. What is the normal procedure for a design sprint?
+<br/>1.3. Which people take part of a design sprint?
 2. Who is the target audience?
-  * What are their needs and wants of the Enso application?
-  * What do we have that the competitors don’t have?
+<br/>2.1. What are their needs and wants of the Enso application?
+<br/>2.2. What do we have that the competitors don’t have?
 3. What are the problems a facilitator has with the current Enso application?
-  * Why do these problems exist, and in what way are they problems?
-  * When do these problems occur and how often?
-  * Is there a way these problems can be prevented?
+<br/>3.1. Why do these problems exist, and in what way are they problems?
+<br/>3.2. When do these problems occur and how often?
+<br/>3.3. Is there a way these problems can be prevented?
 4. What would a facilitator want to do with a design sprint tool?
-  * Why does a facilitator wants to do this?
-  * Is the application the best solution for the goals a facilitator has, or can a different solution give better results?
+<br/>4.1. Why does a facilitator wants to do this?
+<br/>4.2. Is the application the best solution for the goals a facilitator has, or can a different solution give better results?
 5. What does a participant want to know and get from the application during a design sprint?
-  * What information is important for the participant of a design sprint?
-  * Why does the participant want to know this information?
+<br/>5.1. What information is important for the participant of a design sprint?
+<br/>5.2. Why does the participant want to know this information?
 
 ##### Design
 1. What is the preferred way of creating content in a mobile application?
-  * What are best practices around user input in a mobile application?
-  * What information is needed to create a sprint and how do you visually request this from the user?
+<br/>1.1. What are best practices around user input in a mobile application?
+<br/>1.2. What information is needed to create a sprint and how do you visually request this from the user?
 2. What are the best practices around agendas and events for mobile applications?
-  * How do you display an agenda clearly in a mobile application?
-  * How do you give the user the ability to edit an existing agenda?
+<br/>2.1. How do you display an agenda clearly in a mobile application?
+<br/>2.2. How do you give the user the ability to edit an existing agenda?
 3. How does the participant view differ from the facilitator view?
-  * How do you give a participant access to a facilitators design sprint?
-  * What are best practices around requesting access in a mobile application?
+<br/>3.1. How do you give a participant access to a facilitators design sprint?
+<br/>3.2. What are best practices around requesting access in a mobile application?
 
 ##### Technical
 1. What are the restrictions of React Native?
-  * How can you solve those restrictions?
-  * What other alternatives are there instead of React Native?
-  * What are advantages of React Native?
+<br/>1.1. How can you solve those restrictions?
+<br/>1.2. What other alternatives are there instead of React Native?
+<br/>1.3. What are advantages of React Native?
 2. What are the best practices is designing a mobile application codebase?
-  * What different ways are there to set up a project?
-  * How do you deal with the differences between iOS and Android technically?
-  * How do you deal with all the side effects that happen on mobile?
+<br/>2.1. What different ways are there to set up a project?
+<br/>2.2. How do you deal with the differences between iOS and Android technically?
+<br/>2.3. How do you deal with all the side effects that happen on mobile?
 3. How can you write scalable, reusable and maintainable code in React Native?
-  * What packages can you use to make the code more clean and efficient?
-  * How can you work with a version control system, and why is it considered indispensable in a project?
-  * How can you make sure the code you write will work as expected?
+<br/>3.1. What packages can you use to make the code more clean and efficient?
+<br/>3.2. How can you work with a version control system, and why is it considered indispensable in a project?
+<br/>3.3. How can you make sure the code you write will work as expected?
 
 ### Focus
 I want to do what I love, which for me is building a technical solution for a problem. **The main focus for me in this project is how to deal with user specific data inside a React Native application, and how to give the user the best experience when editing content inside this application.**

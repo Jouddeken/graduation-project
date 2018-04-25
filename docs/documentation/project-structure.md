@@ -25,7 +25,7 @@ In my case this would mean that Smart components are the place where fetching da
 - Are written as functional components using a `function [...] ({ ...props }) {...}`
 - Examples: H1, OrderedList, Image
 
-  ##### Alternatives
+##### Alternatives
 _Soon to come, stay tuned_ 🎶
 
 ##### Why smart & dumb components?
