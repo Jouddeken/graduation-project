@@ -1,6 +1,7 @@
 <img style="width: 480px; margin: 0 auto; display: block;" src="https://mobgen.com/wp-content/uploads/2018/01/mobgen-accenture-interactive-logo-2.png" />
 <center>
 <h1>Configuration of Design Sprints in Enso</h1>
+<h2>Product biography</h2>
 <pre style="display: inline-block; text-align: left; margin-top: 1.275em">
 Student:    Job Ouddeken
 Mentor:     Sonja Rouwhorst
