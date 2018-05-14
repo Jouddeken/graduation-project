@@ -34,3 +34,4 @@
     * [Styling](docs/documentation/styling.md)
     * [Version control](docs/documentation/version-control.md)
 * [Promo Video](docs/promo-video/README.md)
+* [Design Rationale](docs/design-rationale/README.md)

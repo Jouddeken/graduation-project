@@ -32,6 +32,9 @@
   text-indent: -5px;
 }
 
+.book-summary ul.summary {
+  padding-bottom: 5rem;
+}
 .summary > .chapter > a {
   font-weight: bold;
 }

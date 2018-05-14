@@ -4,7 +4,7 @@
 
 | # | Feature (Epic) | # | Task (User story title) | Priority |
 | :-: | :-- | :-: | :-- | :-:
-| 1 | Create Sprints | 1.1 | Set sprint name | Must |
+| 1 | Create sprint | 1.1 | Set sprint name | Must |
 |   |   | 1.2 | Set sprint challenge | Must |
 |   |   | 1.3 | Set sprint start date | Should |
 |   |   | 1.4 | Set number of people | Should |
@@ -14,18 +14,23 @@
 |   |   | 1.8 | Select number of sprint days in blank template | Won't |
 |   |   | 1.9 | Store sprints on the Halo CMS | Won't |
 | &mdash; |   |   |   |   |
-| 2 | Edit created sprints | 2.1 | Edit sprint name | Should |
+| 2 | Edit sprint | 2.1 | Edit sprint name | Should |
 |   |   | 2.2 | Edit sprint challenge | Should |
 |   |   | 2.3 | Edit sprint date | Should |
 |   |   | 2.4 | Edit sprint people | Could |
 |   |   | 2.5 | Delete created sprint | Should |
 | &mdash; |   |   |   |   |
-| 3 | Edit sprint agendas | 3.1 | Add events from a predefined list | Must |
+| 3 | Edit agenda | 3.1 | Add events from a predefined list | Must |
 |   |   | 3.2 | Remove events from sprint agenda | Must |
 |   |   | 3.3 | Edit the events order | Must |
 |   |   | 3.4 | Edit the agenda day start time | Should |
 | &mdash; |   |   |   |   |
-| 4 | Edit predefined events | 4.1 | Edit event duration | Should |
+| 4 | Edit event | 4.1 | Edit event title | Won't |
+|   |   | 4.2 | Edit event duration | Must |
+|   |   | 4.3 | Edit event description | Won't |
+|   |   | 4.4 | Edit event tips | Should |
+|   |   | 4.5 | Edit event equipment | Should |
+|   |   | 4.6 | Edit event visual | Should |
 | &mdash; |   |   |   |   |
 | 5 | Add custom events | 5.1 | Set event title | Won't |
 |   |   | 5.2 | Set event duration | Won't |
@@ -96,7 +101,3 @@
 | 20 | Analytics | 20.1 | Report crashes | Won't |
 |   |   | 20.2 | Report timer starts | Won't |
 |   |   | 20.2 | Report sprints created | Won't |
-
-
-### Conclusion
-**@TODO &mdash; Write conclusion.**

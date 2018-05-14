@@ -3,7 +3,7 @@
 ---
 
 ### Epics
-- [create-sprint](./create-sprints/README.md)
-- [edit-sprint](./edit-created-sprints/README.md)
-- [edit-agenda](./edit-sprint-agendas/README.md)
+- [create-sprint](./create-sprint/README.md)
+- [edit-sprint](./edit-sprint/README.md)
+- [edit-agenda](./edit-agenda/README.md)
 - [edit-event](./edit-event/README.md)
