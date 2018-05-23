@@ -1,4 +1,4 @@
-# UX User Tests 📋
+# UX user tests 📋
 ###### What do end users think of the possible solutions?
 ---
 

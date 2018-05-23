@@ -1,6 +1,11 @@
-# Requirements List ✔
+# Requirements list ✔
 ###### Must haves, Could haves, Should haves and Won't haves
 ---
+
+### Introduction
+After the concept phase I sat down and wrote down all the options we could put in the next version of the Enso application. I made a list of features (epics) and later splitted the features up into user stories. Every user story is a new feature a developer could develop.
+
+### Requirements list
 
 | # | Feature (Epic) | # | Task (User story title) | Priority |
 | :-: | :-- | :-: | :-- | :-:
@@ -101,3 +106,6 @@
 | 20 | Analytics | 20.1 | Report crashes | Won't |
 |   |   | 20.2 | Report timer starts | Won't |
 |   |   | 20.2 | Report sprints created | Won't |
+
+### Conclusion
+There are a lot of features we can add to the Enso app to make it better. Some features are more a nice to have than others, and some have to be in the app to be allowed on the app store. Out of this list I choose to try to complete the first 4 epics during the project, adding more epics to the scope would be too much work for the time I had.

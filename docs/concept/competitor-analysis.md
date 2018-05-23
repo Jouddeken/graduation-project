@@ -1,6 +1,9 @@
-# Competitor Analysis 📈
+# Competitor analysis 📈
 ###### An analysis of the competitor field of the Enso design sprint app
 ___
+
+### Introduction
+I did a competitor analysis to find out if there were other applications or resources that we could use instead of developing our own custom application. I looked for similar applications on the AppStore and online. The applications had to be able to support a facilitator during a design sprint, and give him or her some useful tools and extras to work with.
 
 ### Industry
 Design sprints are a big part of the design thinking method, a method that is being used by big tech companies around the world[^1]. Design thinking is a way of working where a product does not have to be finished before getting feedback on it. You iterate on the project multiple times and every time you want to add a new feature.
@@ -52,6 +55,8 @@ This competitor is not really a threat to us. We are using their methodology in 
 
 ### Conclusion
 There are not a lot of applications that offer the possibility for the facilitator to configure their own sprints. The only tools that help the facilitator are books or pre-made presentations that you can not edit. What Enso is going to offer facilitators will give them more flexibility and freedom on how to design their planning for the workshop.
+
+The difference between the competitors and the future release of Enso with the create sprint feature is that the facilitator can configure his or her sprint in the application. This is not possible with any of the competitors.
 
 ### References
 [^1]: Digital Surgeons, (25-01-2017). 5 big organizations winning with design thinking. Consulted on 05-03-2018 from: https://www.digitalsurgeons.com/thoughts/design-thinking/5-big-organizations-that-win-with-design-thinking/

@@ -5,7 +5,7 @@ ___
 ### Introduction
 This document is an explicit documentation of the reasons behind decisions made during my graduation project. I highlighted the most important decisions during the project and explain the arguments that led to the decision.
 
-### Design Challenge
+### Design challenge
 The (design) challenge I am solving in this project is the following:
 
 ##### _“How could the current Enso application give facilitators of design sprints the possibility to configure their own design sprint agendas in the app?”_

@@ -1,5 +1,5 @@
-# Design Brief 📫
-###### Configuration of Design Sprints in Enso
+# Design brief 📫
+###### Configuration of design sprints in Enso
 ___
 
 ### Introduction
@@ -48,7 +48,7 @@ The biggest threat we face is that the design sprints lose popularity over time.
 Design sprints are not necessary in an agile/scrum project, but can be really useful. Design sprints can also be used outside of a agile/scrum system, and were introduced way after agile/scrum was introduced. We have to be aware that design sprints can lose their value and the industry will move to another method where Enso cannot be used anymore.
 
 ___
-### Design Challenge
+### Design challenge
 #####  <span style="text-decoration: line-through;">_“How could the current Enso application give facilitators of design sprints the possibility to create their own design sprint agendas and give participants of those design sprints better information about the agenda during the design sprint?”_</span>
 
 #####  _“How could the current Enso application give facilitators of design sprints the possibility to configure and manage workshops in the application for both Android and iOS with a single codebase?”_
@@ -112,7 +112,7 @@ In the future Enso could become the workshop tool everybody wants to use, we hav
 ### Possible impact of the product
 Enso could become the market leader in workshop facilitator tools, because this market is relatively empty. There are not a lot of tools that help someone facilitate a workshop. You can find a lot of lists on the internet about how to facilitate a workshop, but none of them actually help the facilitator with custom solutions.
 
-### Roadmap & Planning
+### Roadmap & planning
 ##### Concept
 | # | Research question | Activities | Deliverables |
 | --- | --- | --- | --- |

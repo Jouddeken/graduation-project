@@ -42,7 +42,7 @@ The test plan the Enso team wrote together consisted of the following:
 - Without navigating: How would you navigate to the next activity? Do you think they are any other ways to navigate there?
 - Could you find the last activity of the day?
 
-#### Shopping!
+#### Shopping
 ###### Task 2
 - Before the design sprint you want to make sure you have all the equipment you need.
 - Where could you find the shopping list?
@@ -50,7 +50,7 @@ The test plan the Enso team wrote together consisted of the following:
 - Please tick some of the equipment.
 - Now navigate to the Energisers to see how the information is syncs across Enso
 
-#### Energise
+#### Energisers
 ###### Task 3
 - During the design sprint you decide you want to use an energiser activity.
 - Can you find the ‘Killer Wink’ energise?
@@ -205,7 +205,7 @@ ___
 - Energiser name alone is not clear what happens during the energisers, adding a on line summary may help
 - Advice on which energisers are useful for certain situations
 
-#### Features I want to see
+#### Features participants want to see
 - Be able to set my own agenda: Move things around before and during the sprint, remove activities from agenda
 - Take photos of activities and link them to activities in the agenda to produce a summary presentation
 - Be able to see who else is on the sprint and their skills

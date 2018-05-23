@@ -17,4 +17,4 @@ The way I think we can prevent these problems is to give facilitators the option
 
 ###### Sources
 - Observations from Shell Design Sprint (Fly on the wall)
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros (during lunch or just quick chats)
+- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros

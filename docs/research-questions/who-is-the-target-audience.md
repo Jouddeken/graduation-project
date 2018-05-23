@@ -16,7 +16,7 @@ In the current version we don't have any extra features that our biggest competi
 With the addition of the new feature where users can configure their own sprints and edit agendas to make them suit their needs. If the feature is released we have a big advantage over the competition. There is currently no other design sprint tool or workshop tool that allows its users to configure their own workshop in the way we plan to do. We think Enso can be market leader in workshop planning tools with the new feature.
 
 ###### Sources
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros (during lunch or just quick chats)
+- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros
 - Observations from Shell Design Sprint (Fly on the wall)
-- Personas based on the observations and chats (Personas)
-- Empathy maps based on the observations and chats (Empathy maps)
+- Persona based on the observations and conversations with facilitators
+- Empathy maps based on the observations and conversations with facilitators

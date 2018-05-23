@@ -14,7 +14,7 @@ The goal of the prototype in the sprint is to be light weight and easily tested.
 
 ###### Sources
 - The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros (during lunch or just quick chats)
+- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros
 
 ### 1.2. What is the normal procedure for a design sprint?
 
@@ -55,7 +55,7 @@ The third task is to have a number of Lightning Talks to interview experts from 
 
 During these calls, the sprint team writes down ‘how might we’ notes, reframing each problem they hear during a call as an opportunity in the form of a question, beginning with the words ‘how might we’. These notes are written on post-it notes and after the call all the notes were captured and placed on a wall.
 
-After the calls the ‘how might we’ (HMW) are organised into similar themes. The whole sprint team then need to agree and removed the themes that were out of scope. Then, sprint team members individually reviewed the long-term goal and the sprint questions. After this, the team has a vote, using sticky dots, to choose the most provoking and useful HMW questions. The notes with the most stickers were placed on the map next to the corresponding step in the customer’s journey.
+After the calls the ‘how might we’ (HMW) are organized into similar themes. The whole sprint team then need to agree and removed the themes that were out of scope. Then, sprint team members individually reviewed the long-term goal and the sprint questions. After this, the team has a vote, using sticky dots, to choose the most provoking and useful HMW questions. The notes with the most stickers were placed on the map next to the corresponding step in the customer’s journey.
 
 The final task of the day is for the Decider to select the user type and the user journey the team would focus on for the rest of the week.
 
@@ -78,11 +78,11 @@ Using three mobile phone screen print-outs on A4 paper for this. Individually pa
 #### Wednesday – Decide
 ###### Decide | Rumble | Storyboard
 
-The first task for the team is to vote on their favourite sketches from the day before, after which the decider choses the four sketches that would be taken forward to the prototype.
+The first task for the team is to vote on their favorite sketches from the day before, after which the decider choses the four sketches that would be taken forward to the prototype.
 
 **In order to get to this decision:**
 
-Each team member had 20 stickers. The team members review each solution sketch and vote on their favourite sketches and ideas and distribute their stickers between the sketches according to their preferences.
+Each team member had 20 stickers. The team members review each solution sketch and vote on their favorite sketches and ideas and distribute their stickers between the sketches according to their preferences.
 
 After the voting, one team member spends up to 3 minutes presenting each solution sketch. They narrate the sketch and discussed any standout ideas that had clusters of stickers around them. Additionally, they reviewed and discuss all the concerns and questions listed for each solution sketch.
 
@@ -121,7 +121,7 @@ After the final interview, the sprint team comes together to review the notes, n
 ###### Sources
 - The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
 - Observations from Shell Design Sprint (Fly on the wall)
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros (during lunch or just quick chats)
+- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros
 - https://mobgen.com/how-to-tackle-design-sprint/ by Yoav Farbey
 
 ### 1.3. Which people take part of a design sprint?
@@ -144,7 +144,7 @@ The decider is the person is the key decision maker on the team. The decider is 
 
 The deciders responsibilities are to make sure the team has a challenge statement is beneficial to them. To make final decisions on any issues or disagreements that rise during the sprint, and at the end of any team voting the decider needs to confirm they are satisfied with the team’s decision. If the decider is disagreeing with the team consensus, for example when voting on the best idea from the ideation round, they can overrule it and choose another idea to bring forward to a prototype. When this situation occurs, the facilitator should help manage the situation to try and keep everyone happy and focused on the task.
 
-Participants are the rest of the team involved in the design sprint, they participate in all the activities organised by the facilitator. Participants make an impact on the design sprint especially when they bring their ideas of how to solve the challenge for the week during the ideation rounds, voting on different options presented during the week and building the prototype.
+Participants are the rest of the team involved in the design sprint, they participate in all the activities organized by the facilitator. Participants make an impact on the design sprint especially when they bring their ideas of how to solve the challenge for the week during the ideation rounds, voting on different options presented during the week and building the prototype.
 
 ###### Sources
 - The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
@@ -168,7 +168,7 @@ The Design Sprint was specifically invented to dramatically shorten up the innov
 
 **Save money**
 
-By quickly identifying a relevant problem that needs to be solved, and an impactful solution to that problem, a Design Sprint quickly sets a direction for innovation, preventing the company from spending a lot of money into not primary projects, or in ideas that eventually would not meet users’ needs.
+By quickly identifying a relevant problem that needs to be solved, and an impactfull solution to that problem, a Design Sprint quickly sets a direction for innovation, preventing the company from spending a lot of money into not primary projects, or in ideas that eventually would not meet users’ needs.
 
 ###### Sources
 - The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
