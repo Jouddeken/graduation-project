@@ -1,5 +1,5 @@
-# Concept Phase
-###### What does a participant want to know and get from the application during a design sprint?
+# What does a participant want to know and get from the application during a design sprint?
+###### Concept research question
 ---
 
 With the application participants can have a better understanding of the sprint process. This includes having a better overview of the details of the Agenda for each day, the details of the for each activity and how long each activity will take.

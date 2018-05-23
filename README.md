@@ -1,15 +1,18 @@
-<img style="width: 480px; margin: 0 auto; display: block;" src="https://mobgen.com/wp-content/uploads/2018/01/mobgen-accenture-interactive-logo-2.png" />
-<center>
-<h1>Configuration of Design Sprints in Enso</h1>
-<h2>Product biography</h2>
-<pre style="display: inline-block; text-align: left; margin-top: 1.275em">
-Student:    Job Ouddeken
-Mentor:     Sonja Rouwhorst
-Client:     MOBGEN | Accenture Interactive
-Date:       -
-Version:    1.4.0
-</pre>
-</center>
+<img style="display: block; width: 480px;" src="{{ book.img }}/mobgen-accenture-interactive-logo.png" />
 
-## Introduction 🙋🏻‍
-This online document is currently alive! This is where I show the progress in my graduation project and where I upload all deliverables and research I did. Navigate with the menu on the left.
+___
+
+# Product biography
+##### Configuration of Design Sprints in Enso
+This online document is a collection of all the work I did during my graduation project at MOBGEN | Accenture Interactive. The project is divided into three phases. The concept phase to find out what the problem was, the design phase where I create solutions for the problem and test those and the technical phase. The technical phase is the most important phase to me, as development is my specialization. In the technical phase I explain the choices I made during the development, and the reasons why I used some techniques. <br /><br />
+
+___
+
+<pre style="display: inline-block; text-align: left; margin-top: 1.275em">
+Student:           Job Ouddeken
+Specialization:    Development
+Mentor:            Sonja Rouwhorst
+Client:            MOBGEN | Accenture Interactive
+Date:              -
+Version:           2.0.0
+</pre>

@@ -1,5 +1,5 @@
-# Concept Phase
-###### Who is the target audience?
+# Who is the target audience?
+###### Concept research question
 ---
 
 The target audience of the Enso application can be split up into two groups: **Facilitators** and **Participants**. These two groups have different needs and wants. Facilitators are in control of the workshop they are giving, and participants are only participating in a workshop. Based on the interviews and observations, the facilitators want to be able to create their own sprint in the application and be able to edit it. The facilitators just want to get information like the planning of the day, the descriptions of the exercises and how long they have to finish an exercise.

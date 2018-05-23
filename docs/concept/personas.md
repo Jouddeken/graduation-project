@@ -3,7 +3,7 @@
 ---
 
 ### What did I do?
-I chatted with three facilitators of MOBGEN that have used the Enso application. I asked them questions during the lunch break and tried to learn what frustrates them about Enso, what they would need to have a better experience with the application and some things they would want to have as a nice bonus in the application.
+I had conversations with three facilitators of MOBGEN that have used the Enso application. I asked them questions during the lunch break and tried to learn what frustrates them about Enso, what they would need to have a better experience with the application and some things they would want to have as a nice bonus in the application.
 
 The personas are based on interviews with Valentina Salvi, Yoav Farbey and Icaro Bione, both facilitators at MOBGEN, and chats with participants of design sprints during lunch at the MOBGEN office.
 

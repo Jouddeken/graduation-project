@@ -1,5 +1,5 @@
-# Concept Phase
-###### What would a facilitator want to do with a design sprint tool?
+# What would a facilitator want to do with a design sprint tool?
+###### Concept research question
 ---
 Facilitators want to use the Enso tool to give them structure and flexibility. They want to be able to adapt design thinking methodologies such as the design sprint, to fit the clients and projects they are working on. They want to have a planning that they can share with the participants, and want to be able to adjust that planning even during the sprint or workshop.
 

@@ -1,5 +1,5 @@
-# Concept Phase
-###### What is a design sprint and how do you facilitate one?
+# What is a design sprint and how do you facilitate one?
+###### Concept research question
 ---
 
 ### 1.1. What is the goal of a design sprint?

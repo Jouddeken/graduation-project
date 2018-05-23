@@ -1,5 +1,5 @@
-# Concept Phase
-###### What are the problems a facilitator has with the current Enso application?
+# What are the problems a facilitator has with the current Enso application?
+###### Concept research question
 ---
 
 With the current version of the Enso application the facilitator does not have the option to create or configure their own sprints. If a facilitator wants to run a custom sprint in the application with a custom agenda, he has to get in contact with Yoav Farbey, and ask Yoav to add the sprint agenda to our backend system: Halo. This process takes long and when the facilitator wants to change something it takes a while. When a facilitator wants to edit the duration or the order of some of the events in a certain agenda, Yoav has to change this in Halo. This takes way to long to be done during a sprint.

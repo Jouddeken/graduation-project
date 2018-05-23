@@ -1,3 +1,7 @@
+sup {
+  font-size: 75% !important;
+}
+
 .gist .gist-file .gist-data table tr {
   background-color: transparent;
   border-top: none;
@@ -19,7 +23,7 @@
 
 .markdown-section ul {
   margin: 0;
-  margin-bottom: .85em;
+  margin-bottom: 0.85em;
   list-style-type: none;
   padding-left: 1em;
 }
@@ -46,7 +50,8 @@
   padding-top: 5px;
 }
 
-.book.color-theme-2 .book-summary ul.summary li.active > a, .book.color-theme-2 .book-summary ul.summary li a:hover {
+.book.color-theme-2 .book-summary ul.summary li.active > a,
+.book.color-theme-2 .book-summary ul.summary li a:hover {
   margin-left: -900px;
   padding-left: 915px;
 }
@@ -70,7 +75,7 @@
   border-bottom-color: #c1c6d7;
 }
 #book-search-input:after {
-  content: "Enso Graduation Project"
+  content: "Enso Graduation Project";
 }
 
 nav > ul.summary > li.divider,
