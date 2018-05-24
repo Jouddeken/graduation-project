@@ -5,8 +5,7 @@
 ### What did I do?
 I made an empathy map that reflects to the persona of the facilitator of the Enso app. This empathy map are made to make clear what the target audience is going through, thinks, sees, feels and hears during the usage of the Enso application. They are based on interviews with Valentina Salvi, Yoav Farbey and Icaro Bione, all facilitators at MOBGEN.
 
-### Facilitator
-[![Empathy map facilitator]({{ book.img }}/empathy-map-facilitator.png)]({{ book.img }}/empathy-map-facilitator.png "Click for large")
+![Empathy map facilitator]({{ book.img }}/empathy-map-facilitator.png)
 <span style="font-size: 85%">Click on the image for a larger version.</span>
 
 ### Conclusion

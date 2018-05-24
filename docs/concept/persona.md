@@ -11,7 +11,7 @@ I had conversations with three facilitators of MOBGEN that have used the Enso ap
 
 Lastly **Icaro** is Lead Product Designer at MOBGEN, and has also been in a quite some design sprints as a facilitator and participant.
 
-[![Persona facilitator]({{ book.img }}/persona-facilitator.png)]({{ book.img }}/persona-facilitator.png "Click for large")
+![Persona facilitator]({{ book.img }}/persona-facilitator.png)
 <span style="font-size: 85%">Click on the image for a larger version.</span>
 
 ### Conclusion

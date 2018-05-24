@@ -6,7 +6,7 @@
 I made a customer journey of the current version of the Enso application. It shows where the painpoints of the Enso app are, without asking that question directly to the facilitators. The customer journey is based on the [Fly on the wall](./fly-on-the-wall.md) observation I did, and describes a possible way the Enso customer journey could be. I realise I only did one observation in one design sprint, but the situation that occurred in that workshop was one that was deal breaking for the application. The situation in the design sprint was a situation where the facilitator could not use the Enso application anymore. This is a situation we want to avoid all the time at all cost, and needs a solution.
 
 ### Customer Journey
-[![Customer Journey of the current Enso Application]({{ book.img }}/customer-journey.png)]({{ book.img }}/customer-journey.png "Click for large")
+![Customer Journey of the current Enso Application]({{ book.img }}/customer-journey.png)
 <span style="font-size: 85%">Click on the image for a larger version.</span>
 
 ### Conclusion

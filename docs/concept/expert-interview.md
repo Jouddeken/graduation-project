@@ -6,10 +6,10 @@
 I held an interview with Valentina Salvi (facilitator/service designer), Yoav Farbey (facilitator/business analyst) and Leanne Pickering (senior designer) about design sprints and the Enso application. I held the interview together with Francesca Danna from the marketing team. Francesca wanted to know more about designing outside of the line, a subject she uses for marketing. I asked questions about the Enso application and how the facilitators and also Leanne used the application.
 
 ### Notes
-[![Expert interview photo 1]({{ book.img }}/expert-1.jpg)]({{ book.img }}/expert-1.jpg "Click for large")
-[![Expert interview photo 4]({{ book.img }}/expert-2.jpg)]({{ book.img }}/expert-2.jpg "Click for large")
-[![Expert interview photo 5]({{ book.img }}/expert-3.jpg)]({{ book.img }}/expert-3.jpg "Click for large")
-[![Expert interview photo 6]({{ book.img }}/expert-4.jpg)]({{ book.img }}/expert-4.jpg "Click for large")
+![Expert interview photo 1]({{ book.img }}/expert-1.jpg)
+![Expert interview photo 4]({{ book.img }}/expert-2.jpg)
+![Expert interview photo 5]({{ book.img }}/expert-3.jpg)
+![Expert interview photo 6]({{ book.img }}/expert-4.jpg)
 <span style="font-size: 85%">Click on the images for a larger version.</span>
 
 ### Conclusion

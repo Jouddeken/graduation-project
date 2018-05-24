@@ -15,6 +15,7 @@
     * [edit-agenda](docs/design/epics/edit-agenda/index.md)
     * [edit-event](docs/design/epics/edit-event/index.md)
   * [Pattern research](docs/design/pattern-research.md)
+  * [Design iterations](docs/design/design-iterations.md)
   * [UX prototype](docs/design/ux-prototype.md)
   * [UX user tests](docs/design/ux-user-tests.md)
 * [Technical phase](docs/technical/index.md)
