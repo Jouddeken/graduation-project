@@ -8,9 +8,9 @@ During the concept phase I wanted to get to know what the actual problem was wit
 ### What did I do?
 * Conducted [User tests](./user-tests.md)
 * Made a [Competitor Analysis](./competitor-analysis.md)
+* Did a [Fly on the Wall](./fly-on-the-wall.md) observation
 * Made a [Persona](./persona.md)
 * Made a [Empathy Map](./empathy-map.md)
-* Did a [Fly on the Wall](./fly-on-the-wall.md) observation
 * Made a [Customer Journey](./customer-journey.md)
 * Did an [Expert Interview](./expert-interview.md)
 
@@ -21,4 +21,3 @@ During the concept phase I wanted to get to know what the actual problem was wit
 - How Enso is being used in a design sprint
 - The Enso prototype is a good tool but needs more features
 - The Enso application needs to be configurable to the needs and wants of facilitators
-- The concept phase is not my specialization

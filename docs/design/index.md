@@ -19,4 +19,3 @@ I wanted to create a solution for the problem I discovered in the concept phase.
 - Patterns are a good way to find solutions
 - An invision prototype is a good way to test your designs
 - Good UX testing is difficult
-- The design phase is not my specialization

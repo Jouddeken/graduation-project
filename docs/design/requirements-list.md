@@ -5,6 +5,8 @@
 ### Introduction
 After the concept phase I sat down and wrote down all the options we could put in the next version of the Enso application. I made a list of features (epics) and later splitted the features up into user stories. Every user story is a new feature a developer could develop.
 
+I used the research from the concept phase and the persona to create these features. The list below is a collection of the things I and the Enso team thought would be good features to add, that would solve problems the facilitators had we found out about in the concept phase.
+
 ### Requirements list
 
 | # | Feature (Epic) | # | Task (User story title) | Priority |
@@ -97,7 +99,7 @@ After the concept phase I sat down and wrote down all the options we could put i
 | &mdash; |   |   |   |   |
 | 18 | Technical | 18.0 | Works on iOS and Android | Must |
 |   |   | 18.1 |	Works on landscape and portrait | Must |
-|   |   | 18.2 |	Works on iOS >9.0 and Android >6.0 | Must |
+|   |   | 18.2 |	Works on iOS >9.0 and Android >7.0 | Must |
 |   |   | 18.3 |	Works offline | Could |
 |   |   | 18.4 |	Has a native look and feel | Must |
 | &mdash; |   |   |   |   |
@@ -108,4 +110,6 @@ After the concept phase I sat down and wrote down all the options we could put i
 |   |   | 20.2 | Report sprints created | Won't |
 
 ### Conclusion
-There are a lot of features we can add to the Enso app to make it better. Some features are more a nice to have than others, and some have to be in the app to be allowed on the app store. Out of this list I choose to try to complete the first 4 epics during the project, adding more epics to the scope would be too much work for the time I had.
+There are a lot of features we can add to the Enso app to make it better. Some features are more a nice to have than others, and some have to be in the app to be allowed on the app store. Out of this list I chose to try to complete the first 4 epics during the project, adding more epics to the scope would be too much work for the time I had. Those Epics are marked with a green color. I wrote detailed descriptions and acceptance criteria for those Epics and User Stories.
+
+Some of the requirements that are marked as must will be done, but will be part of the redesign another developer is working on while I work on the other four requirements.

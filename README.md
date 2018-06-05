@@ -4,7 +4,9 @@ ___
 
 # Product biography
 ##### Configuration of Design Sprints in Enso
-This online document is a collection of all the work I did during my graduation project at MOBGEN | Accenture Interactive. The project is divided into three phases. The concept phase to find out what the problem was, the design phase where I create solutions for the problem and test those and the technical phase. The technical phase is the most important phase to me, as development is my specialization. In the technical phase I explain the choices I made during the development, and the reasons why I used some techniques. <br /><br />
+This online document is a collection of all the work I did during my graduation project at MOBGEN | Accenture Interactive. The project is divided into three phases. The concept phase to find out what the problem was, the design phase where I create solutions for the problem and test those and the technical phase.
+
+**The technical phase is the most important phase to me, as development is my specialization.**<br /><br />
 
 ___
 

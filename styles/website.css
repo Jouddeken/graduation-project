@@ -111,6 +111,17 @@ nav > ul.summary > li:last-of-type {
   clear: both;
 }
 
+#requirements-list + table tbody tr:nth-of-type(-n+27) {
+  background-color: #e8ffe8;
+}
+#requirements-list + table tbody tr:nth-of-type(10),
+#requirements-list + table tbody tr:nth-of-type(16) {
+  background-color: #f8f8f8;
+}
+#requirements-list + table tbody tr:nth-of-type(21) {
+  background-color: #fff;
+}
+
 @media screen and (min-width: 50rem) {
   .image-item--1-2 {
     width: 50%;

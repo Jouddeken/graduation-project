@@ -10,7 +10,6 @@ I held an interview with Valentina Salvi (facilitator/service designer), Yoav Fa
 ![Expert interview photo 4]({{ book.img }}/expert-2.jpg)
 ![Expert interview photo 5]({{ book.img }}/expert-3.jpg)
 ![Expert interview photo 6]({{ book.img }}/expert-4.jpg)
-<span style="font-size: 85%">Click on the images for a larger version.</span>
 
 ### Conclusion
 The interview was a confirmation of the previous done research about the Enso application. The facilitators emphasized that they need a configuration feature in the Enso app to actually add value to design sprints and that the current version was only useful as a prototype. Besides the confirmation I also got new insights in what design thinking is and how it is applied at MOBGEN. The facilitators wanted Enso to be flexible and configurable.

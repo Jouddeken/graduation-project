@@ -5,7 +5,7 @@
 ### Introduction
 I followed the same pattern to create a new UX design for all the screens in the application. I would look at design patterns that proofed to work in other applications, and applied them to my screens, sometimes changing some things a bit or combining two patterns on one screen.
 
-I would make 2 or 3 options for each screen, and discuss with Alejandro Cruz Moreno, designer for Enso and Shell and has worked for many clients as a UX or UI designer. I would also show my designs to Lan Belic, who is a senior UX designer at MOBGEN. Lan has also worked at the Enso project and for the Shell apps and websites. They would give me feedback on my designs and helped me to come to a final solution that we could test. I choose not to test all the options I had to save some time in the design process, and to be able to spend more time on development, as development is my specialization.
+I would make 2 or 3 options for each screen, and discuss with Alejandro Cruz Moreno, designer for Enso and Shell and has worked for many clients as a UX or UI designer. I would also show my designs to Lan Belic, who is a senior UX designer at MOBGEN. Lan has also worked at the Enso project and for the Shell apps and websites. They would give me feedback on my designs and helped me to come to a final solution that we could test. I chose not to test all the options I had to save some time in the design process, and to be able to spend more time on development, as development is my specialization.
 
 ### Create sprint flow
 For these screens I created 3 options that might work. I looked at payment flow patterns of Zalando and other webshops, where the user has to be guided through a couple of steps. Option 1 was a long screen where all the necessary information could be filled in. Option 2 was a flow where the application itself tried to choose the correct values for the information itself, and the user could edit them later. The last option, option 3, was a wizard like flow, where the user was presented one input on every screen and had to actively press next to go to the next input.
@@ -73,7 +73,7 @@ Besides that I added a short description for every template option, so the user 
 
 
 ### Edit sprint flow
-For these screens I looked at applications where the user can edit values. Examples for this are user accounts where you can edit your name, email or other information. Examples of this are Facebook, Twitter, Uber, Snapchat, Marktplaats and Instagram. I choose to follow the design pattern of Marktplaats and Instagram, where the user can edit a value by clicking on the input. After the click the keyboard will appear on the screen the user currently is at. The other examples had an extra navigational step, where the user is taken to the next screen after clicking on a value.
+For these screens I looked at applications where the user can edit values. Examples for this are user accounts where you can edit your name, email or other information. Examples of this are Facebook, Twitter, Uber, Snapchat, Marktplaats and Instagram. I chose to follow the design pattern of Marktplaats and Instagram, where the user can edit a value by clicking on the input. After the click the keyboard will appear on the screen the user currently is at. The other examples had an extra navigational step, where the user is taken to the next screen after clicking on a value.
 
 <div class="images-row group">
   <div class="image-item image-item--1-2 image-item--border">
