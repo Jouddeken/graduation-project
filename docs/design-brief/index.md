@@ -78,7 +78,7 @@ ___
 
 ##### Design
 1. What is the preferred way of creating a new sprint on a mobile application?
-<br/>1.1. What are best practices around user input in a mobile application?
+<br/>1.1. What are best practices around requesting values from a user in a mobile application?
 <br/>1.2. What information is needed to create a sprint and how do you visually request this from the user?
 2. What are the best practices around agendas and events for mobile applications?
 <br/>2.1. How do you display an agenda clearly in a mobile application?
