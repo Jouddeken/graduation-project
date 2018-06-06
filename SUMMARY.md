@@ -29,7 +29,6 @@
   * [Storage and data flow](docs/technical/storage-and-data-flow.md)
   * [Project structure](docs/technical/project-structure.md)
   * [Styling](docs/technical/styling.md)
-  * [Version control](docs/technical/version-control.md)
 * [Research questions](docs/research-questions/index.md)
   * [What is a design sprint?](docs/research-questions/what-is-a-design-sprint.md)
   * [Who is the target audience?](docs/research-questions/who-is-the-target-audience.md)
