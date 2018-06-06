@@ -77,7 +77,7 @@ ___
 <br/>5.2. <span style="text-decoration: line-through;">Why does the participant want to know this information?</span>
 
 ##### Design
-1. What is the preferred way of creating content in a mobile application?
+1. What is the preferred way of creating a new sprint on a mobile application?
 <br/>1.1. What are best practices around user input in a mobile application?
 <br/>1.2. What information is needed to create a sprint and how do you visually request this from the user?
 2. What are the best practices around agendas and events for mobile applications?
@@ -127,7 +127,7 @@ After answering these questions I will have a clear idea what the problem is and
 ##### Design
 | # | Research question | Activities | Deliverables |
 | --- | --- | --- | --- |
-| 6 | What is the preferred way of creating content in a mobile application? | <ul><li>Desk research to best practices around content creation in mobile applications</li><li>UX sketches that can be used to test the possible solutions</li></ul> | <ul><li>Best practices research document</li><li>UX sketches</li></ul> |
+| 6 | What is the preferred way of creating a new sprint on a mobile application? | <ul><li>Desk research to best practices around content creation in mobile applications</li><li>UX sketches that can be used to test the possible solutions</li></ul> | <ul><li>Best practices research document</li><li>UX sketches</li></ul> |
 | 7 | What are the best practices around agendas and events for mobile applications? | <ul><li>Desk research to best practices around agendas and showing events in mobile applications</li><li>UX sketches that can be used to test the possible solutions</li></ul> | <ul><li>Addition to best practices research document</li><li>UX sketches</li></ul> |
 | 8 | <span style="text-decoration: line-through;">How does the participant view differ from the facilitator view?</span> | <ul><li><span style="text-decoration: line-through;">UX sketches for a possible flow to invite participants to a facilitators sprint</span></li></ul> | <ul><li><span style="text-decoration: line-through;">User test notes and outcomes to iterate on</span></li></ul> |
 

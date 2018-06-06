@@ -40,10 +40,17 @@ Lastly, React Native has a very big community behind it. There are a lot of pack
 
 The other options are not necessarily bad options, but React Native was for this project and for MOBGEN the best solution as it had most of the things that were needed. A downside of React Native is that it is not as performant as a native app, and that some functionalities where you want to make use of native components such as Touch ID are hard to do and sometimes impossible, although more and more packages that support these kind of features are being released every day. [^4]
 
-##### Pro's of React Native
+##### Pro's of React Native [^5] [^6]
 - Written in a known language (Javascript)
 - Big community with a lot of packages
-- Well known
+- Well known (React) by the MOBGEN developers, so easily
+- Faster/cheaper development with a smaller team
+
+##### Con's of React Native [^5] [^6]
+- Native developer still needed for usage of native functionalities
+- It's difficult to make the navigation work correctly and easily on both platforms
+- Facebook rules, massively relying on one company
+- Just not as fast/smooth as real native apps
 
 ---
 
@@ -52,3 +59,5 @@ The other options are not necessarily bad options, but React Native was for this
 [^2]: Kukic, Ado. (10-01-2017). Alternatives to Native Mobile App Development. Consulted on 23-03-2018 from: https://auth0.com/blog/alternatives-to-native-mobile-app-development/
 [^3]: Google. (Date unknown). Flutter. Consulted on 23-03-2018 from: https://flutter.io/
 [^4]: Research done during internship from 01-11-2017 till 19-02-2018
+[^5]: Chrzanowska, Natalia. (22-10-2017). React Native - Pros and Cons Of Facebook’s Framework. Consulted on 06-06-2018 from: https://www.netguru.co/blog/react-native-pros-and-cons
+[^6]: Kiewning, Dennis. (04-01-2018). React Native - The Good, the Bad and the Ugly. Consulted on 06-06-2018 from: https://medium.com/widgetlabs/react-native-and-the-good-the-bad-and-the-ugly-f10b5baf703e
