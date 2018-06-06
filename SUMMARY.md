@@ -20,7 +20,7 @@
     * [edit-sprint](docs/design/pattern-research/edit-sprint.md)
     * [edit-agenda](docs/design/pattern-research/edit-agenda.md)
     * [edit-event](docs/design/pattern-research/edit-event.md)
-  * [Design iterations](docs/design/design-iterations.md)
+  * [Design process](docs/design/design-process.md)
   * [UX prototype](docs/design/ux-prototype.md)
   * [UX user tests](docs/design/ux-user-tests.md)
   * [Conclusion](docs/design/conclusion.md)

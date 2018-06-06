@@ -2,3 +2,4 @@ _book
 book.pdf
 node_modules
 .vscode
+*.pdf

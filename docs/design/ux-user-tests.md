@@ -57,9 +57,28 @@ The test plan was as follows:
 - Ask what could be improved overall in the UX designs.
 - Thank them for their time.
 
-### Results
-The results of the user tests were:
+### Participants
+| Name | Role at MOBGEN |
+| :-- | :-- | :-- |
+| Hui Lin | UX/UI designer |
+| Biarne Vink | LAB intern |
+| Daniël Alarcon Amador | Frontend developer |
+| Sarita Bleiker | Business Analyst |
+| Ting Yu Chen | LAB researcher |
+| Gert Jan Oostenrijk | Business Analyst |
 
+<div class="images-row group">
+  <div class="image-item image-item--1-2">
+    <img src="{{ book.img }}/user-testing-4.jpg">
+    <span>A participant testing the prototype</span>
+  </div>
+  <div class="image-item image-item--1-2">
+    <img src="{{ book.img }}/enso-user-testing-notes-1.jpeg">
+    <span>Some notes from the user testing</span>
+  </div>
+</div>
+
+### Outcomes
 - There should be a quicker way to navigate back to the home screen when in a sprint
 - The timer button on an event screen should indicate the amount of time of the event
 - The timer button should be visible in all screens of the app, since it is the most important feature
@@ -73,9 +92,5 @@ The results of the user tests were:
 - The name 'upcoming exercise' is not clear
 - The popups on the screen should be vertically centered
 
-<div class="images-row group">
-  <div class="image-item image-item--1-2 image-item--center">
-    <img src="{{ book.img }}/user-testing-4.jpg">
-    <span>A participant testing the prototype</span>
-  </div>
-</div>
+### Conclusion
+The participants had some good feedback on the prototype, but overall the prototype was working good and the participants knew how they had to work with it. The application was tested using invision which gave the participants the actual native look and feel of an application. This helped with testing the navigation setup. Most of the designs were clear to the participants, and they knew how to work with the application. One of the vague things was the 'upcoming exercise' on the landing page, which was not clear enough for the participants. Most of the feedback that was giving were points on how to improve a current idea, which they thought was working pretty well already.

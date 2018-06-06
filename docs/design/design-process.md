@@ -1,9 +1,9 @@
-# Design iterations 🔄
+# Design process 🔄
 ###### The design process I went through
 ---
 
 ### Introduction
-I followed the same pattern to create a new UX design for all the screens in the application. I would look at design patterns that proofed to work in other applications, and applied them to my screens, sometimes changing some things a bit or combining two patterns on one screen.
+I followed the same workflow to create a new UX design for all the screens in the application. I would look at design patterns that proofed to work in other applications, and applied them to my screens, sometimes changing some things a bit or combining two patterns on one screen.
 
 I would make 2 or 3 options for each screen, and discuss with Alejandro Cruz Moreno, designer for Enso and Shell and has worked for many clients as a UX or UI designer. I would also show my designs to Lan Belic, who is a senior UX designer at MOBGEN. Lan has also worked at the Enso project and for the Shell apps and websites. They would give me feedback on my designs and helped me to come to a final solution that we could test. I chose not to test all the options I had to save some time in the design process, and to be able to spend more time on development, as development is my specialization.
 
@@ -135,4 +135,43 @@ After clicking on add event the user is taken to a screen where he can select ev
 
 As said I made a couple of options of the screens that had to get a UX design. When I had some things done I would discuss them with the two experts, Alejandro and Lan, and we would select a version of the screen we were going to put in the UX prototype we were going to test. Below is an example of how my sketch file looked like.
 
-![Sketch file]({{ book.img }}/design/sketch-create-sprint-overview.png)
+<p>
+  <img src="{{ book.img }}/design/sketch-create-sprint-overview.png" style="width: 100%;">
+</p>
+
+<style>
+  .j-btn {
+    display: inline-block;
+    background: #0c7feb !important;
+    border-radius: 2px;
+    border-bottom: 4px solid #0c7feb;
+    color: #fff !important;
+    font-weight: bold;
+    margin-left: auto;
+    padding: 12px 16px 6px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  .j-btn:active, .j-btn:hover, .j-btn:focus, .j-btn:visited  {
+    background: #096cca !important;
+    border-bottom: 4px solid #b4d9fd;
+    text-decoration: none !important;
+  }
+  .j-btn--icon {
+    display: inline-block;
+    padding-left: 8px;
+    vertical-align: -6px;
+  }
+</style>
+
+<p style="text-align: right;">
+  <a href="https://jobouddeken.nl/files/enso-wireframes.sketch" class="j-btn">
+    <span class="j-btn--text">Download my sketch workfile here</span>
+    <span class="j-btn--icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path fill="#ffffff" d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z" />
+      </svg>
+    </span>
+  </a>
+</p>
