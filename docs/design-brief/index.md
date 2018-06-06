@@ -80,21 +80,21 @@ ___
 <br/>5.2. <span style="text-decoration: line-through;">Why does the participant want to know this information?</span>
 
 **edit:**<br />
-I decided to drop the last question because the information was not necessary anymore for the feature I was going to make after changing the design challenge. At the start of the project the idea was to make a separate application for facilitators as well, where they can see the design sprint agenda. This was too much work in the time I had.
+I decided to drop question 5 because the information was not necessary anymore for the feature I was going to make after changing the design challenge. At the start of the project the idea was to make a separate application for facilitators as well, where they can see the design sprint agenda. This was too much work in the time I had.
 
 ##### Design
 1. What is the preferred way of creating a new sprint on a mobile application?
 <br/>1.1. What are best practices around requesting values from a user in a mobile application?
 <br/>1.2. What information is needed to create a sprint and how do you visually request this from the user?
 2. What are the best practices around agendas and events for mobile applications?
-<br/>2.1. How do you display an agenda clearly in a mobile application?
 <br/>2.2. How do you give the user the ability to edit an existing agenda?
+<br/>2.2. How do you give the user the ability to edit an existing event?
 3. <span style="text-decoration: line-through;">How does the participant view differ from the facilitator view?</span>
 <br/>3.1. <span style="text-decoration: line-through;">How do you give a participant access to a facilitators design sprint?</span>
 <br/>3.2. <span style="text-decoration: line-through;">What are best practices around requesting access in a mobile application?</span>
 
 **edit:**<br />
-I decided to drop the last question because the information was not necessary anymore for the feature I was going to make after changing the design challenge. At the start of the project the idea was to make a separate application for facilitators as well, where they can see the design sprint agenda. This was too much work in the time I had.
+I decided to drop question 3 because the information was not necessary anymore for the feature I was going to make after changing the design challenge. At the start of the project the idea was to make a separate application for facilitators as well, where they can see the design sprint agenda. This was too much work in the time I had.
 
 ##### Technical
 1. What are the restrictions of React Native?
