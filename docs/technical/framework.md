@@ -43,7 +43,7 @@ The other options are not necessarily bad options, but React Native was for this
 ##### Pro's of React Native [^5] [^6]
 - Written in a known language (Javascript)
 - Big community with a lot of packages
-- Well known (React) by the MOBGEN developers, so easily
+- Well known (React) by the MOBGEN developers, so easily transferable to another developer
 - Faster/cheaper development with a smaller team
 
 ##### Con's of React Native [^5] [^6]

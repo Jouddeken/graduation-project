@@ -12,10 +12,12 @@ I looked at three patterns that could be applied when creating a sprint in the a
 - Wizard
 - Structured format
 
-In the end I combined the wizard with the structured format to make a create-sprint flow where the user focusses on one input at the time, with the least amount of steps needed to be taken.
+In the end I combined the wizard with the structured format to make a create-sprint flow where the user focusses on one input at the time, with the least amount of steps needed to be taken. This solution was [tested](../design/ux-user-tests.md) with multiple people at MOBGEN, and overall they were enthusiastic about it and how it worked. Most of them thought it was very intuitive and clear what was expected from them.
+
+I also added the little dots at the top of the screen to indicate the number of steps the user has taken, and how many are still left.
 
 ### What information is needed to create a sprint and how do you visually request this from the user?
-Together with the facilitators at MOBGEN and the Product owner of Enso, Yoav, we made a list of the information that was needed to create a sprint. The list of values we needed was:
+Together with the facilitators at MOBGEN, the designers, Lan and Alejandro and the Product owner of Enso, Yoav, we made a list of the information that was needed to create a sprint. The list of values we needed was:
 
 | Value | Required |
 | :-- | :-- |

@@ -51,9 +51,12 @@ ___
 ### Design challenge
 #####  <span style="text-decoration: line-through;">_“How could the current Enso application give facilitators of design sprints the possibility to create their own design sprint agendas and give participants of those design sprints better information about the agenda during the design sprint?”_</span>
 
-#####  _“How could the current Enso application give facilitators of design sprints the possibility to configure and manage workshops in the application for both Android and iOS with a single codebase?”_
+**edit:**<br />
+_**“How could the current Enso application give facilitators of design sprints the possibility to configure and manage workshops in the application for both Android and iOS with a single codebase?”**_
 
 I decided to make the design challenge focusing on the technical part of the project, which is where I have been specializing in during the study. The technical part is for me the most important part in this project, and is also the field I am going to work in after the study. I want to use this project to show that I can create outstanding technical solutions, but still know how to do concept and design parts in a project.
+
+I changed the design challenge after a week or 12 in the project, when the feedback I got was that I was not focussing on my expertise enough. I made it focus more on the technical part of the project, so I could also focus more on that part.
 ___
 
 ### Research questions
@@ -76,6 +79,9 @@ ___
 <br/>5.1. <span style="text-decoration: line-through;">What information is important for the participant of a design sprint?</span>
 <br/>5.2. <span style="text-decoration: line-through;">Why does the participant want to know this information?</span>
 
+**edit:**<br />
+I decided to drop the last question because the information was not necessary anymore for the feature I was going to make after changing the design challenge. At the start of the project the idea was to make a separate application for facilitators as well, where they can see the design sprint agenda. This was too much work in the time I had.
+
 ##### Design
 1. What is the preferred way of creating a new sprint on a mobile application?
 <br/>1.1. What are best practices around requesting values from a user in a mobile application?
@@ -87,19 +93,25 @@ ___
 <br/>3.1. <span style="text-decoration: line-through;">How do you give a participant access to a facilitators design sprint?</span>
 <br/>3.2. <span style="text-decoration: line-through;">What are best practices around requesting access in a mobile application?</span>
 
+**edit:**<br />
+I decided to drop the last question because the information was not necessary anymore for the feature I was going to make after changing the design challenge. At the start of the project the idea was to make a separate application for facilitators as well, where they can see the design sprint agenda. This was too much work in the time I had.
+
 ##### Technical
 1. What are the restrictions of React Native?
 <br/>1.1. How can you solve those restrictions?
 <br/>1.2. What other alternatives are there instead of React Native?
 <br/>1.3. What are advantages of React Native?
-2. What are the best practices is designing a mobile application codebase?
+2. What are the best practices is designing a mobile application codebase in React Native?
 <br/>2.1. What different ways are there to set up a project?
-<br/>2.2. How do you deal with the differences between iOS and Android technically?
+<br/>2.2. <span style="text-decoration: line-through;">How do you deal with the differences between iOS and Android technically?</span>
 <br/>2.3. How do you deal with all the side effects that happen on mobile?
 3. How can you write scalable, reusable and maintainable code in React Native?
-<br/>3.1. What packages can you use to make the code more clean and efficient?
+<br/>3.1. What packages or patterns can you use to make the code more clean and efficient?
 <br/>3.2. How can you work with a version control system, and why is it considered indispensable in a project?
 <br/>3.3. How can you make sure the code you write will work as expected?
+
+**edit:**<br />
+I decided to drop question 2.2 because to save time in design and spend more time in development I decided to make the designs for iOS and Android the same.
 
 ### Focus
 I want to do what I love, which for me is building a technical solution for a problem. I am specializing in the Frontend Developer role and have been focussed on development for the biggest part of my studies. During this project I want to show that I can create outstanding technical solutions, but still know how to do concept and design parts in a project.
