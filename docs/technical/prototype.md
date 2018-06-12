@@ -16,3 +16,10 @@ The good thing about React Native is that you can develop an Android and iOS app
 4. Go to Settings > General > Profiles & Device Management
 5. Click on MOBGEN B.V. and trust the developer
 6. Reopen the application
+
+<div style="margin-top: 64px;">
+  <video style="margin-left: auto; margin-right: auto; display: block;" width="375" height="667" controls>
+    <source src="{{ book.files }}/enso-screencapture.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>

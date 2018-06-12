@@ -10,6 +10,7 @@
   },
   "variables": {
     "img": "https://jobouddeken.nl/images",
+    "files": "https://jobouddeken.nl/files",
     "gist": "https://gist.github.com/Jouddeken",
     "sketch": "https://jobouddeken.nl/files/enso-wireframes.sketch",
     "designRationale": "https://jobouddeken.nl/files/design-rationale.pdf",
