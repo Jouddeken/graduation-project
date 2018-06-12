@@ -15,6 +15,8 @@ The problem that the facilitator has, is that during a sprint things change, and
 ### 3.3. Is there a way these problems can be prevented?
 The way I think we can prevent these problems is to give facilitators the option to do quick things like removing an event, updating the duration or reordering events in the application. This should be possible to do in a very short period of time, so the facilitator can stay focussed on the design sprint itself, and not on Enso. Enso should not be the focus point during the design sprint, it should even feel natural and quick to update something in Enso.
 
-###### Sources
-- Observations from Shell Design Sprint (Fly on the wall)
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros
+---
+
+###### References
+[^1]: Interviews with Yoav Farbey, business analyst at MOBGEN, Valentina Salvi, facilitator at MOBGEN and Israel Barros, facilitator at MOBGEN.
+[^2]: Observations from the Shell Design Sprint, [Fly on the Wall](../../concept/fly-on-the-wall.md)

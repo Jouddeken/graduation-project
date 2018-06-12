@@ -140,21 +140,18 @@ As said I made a couple of options of the screens that had to get a UX design. W
 </p>
 
 <style>
-  .j-btn {
+  .j-btn, .j-btn:visited {
     display: inline-block;
     background: #0c7feb !important;
     border-radius: 2px;
-    border-bottom: 4px solid #0c7feb;
     color: #fff !important;
     font-weight: bold;
     margin-left: auto;
-    padding: 12px 16px 6px;
+    padding: 12px 16px 4px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
   }
-  .j-btn:active, .j-btn:hover, .j-btn:focus, .j-btn:visited  {
-    background: #096cca !important;
-    border-bottom: 4px solid #b4d9fd;
+  .j-btn:active, .j-btn:hover, .j-btn:focus  {
     text-decoration: none !important;
   }
   .j-btn--icon {
@@ -165,8 +162,8 @@ As said I made a couple of options of the screens that had to get a UX design. W
 </style>
 
 <p style="text-align: right;">
-  <a href="https://jobouddeken.nl/files/enso-wireframes.sketch" class="j-btn">
-    <span class="j-btn--text">Download my sketch workfile here</span>
+  <a href="{{ book.sketch }}" class="j-btn">
+    <span class="j-btn--text">Download workfile &mdash; (sketch)</span>
     <span class="j-btn--icon">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
         <path d="M0 0h24v24H0z" fill="none" />

@@ -12,10 +12,6 @@ The way the team on a design sprint solve this complex problem is by narrowing t
 
 The goal of the prototype in the sprint is to be light weight and easily tested. It is not a detailed product, that could be brought to market. Instead the prototype often a simple clickable interface or sometimes even a paper prototype, as long as it gets the key learnings for the challenge statement. After the sprint the successful features of the prototype can be developed further to an MVP.
 
-###### Sources
-- The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros
-
 ### 1.2. What is the normal procedure for a design sprint?
 
 The procedure for a design sprint combines 5 stages:
@@ -118,12 +114,6 @@ The user test day consisted of r interviews, and the team was split into two gro
 
 After the final interview, the sprint team comes together to review the notes, note down our lessons, and conclude the results of the day.
 
-###### Sources
-- The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
-- Observations from Shell Design Sprint (Fly on the wall)
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros
-- https://mobgen.com/how-to-tackle-design-sprint/ by Yoav Farbey
-
 ### 1.3. Which people take part of a design sprint?
 
 In principle, anyone can take part in a design sprint. A design sprint can be taken by who are trying to solve a problem via this methodology of rapid prototyping. At MOBGEN the type of people I have observed are: service designers, business analysts, product owners, subject matter specialist, marketers, developers and UI/UX designers.
@@ -146,10 +136,6 @@ The deciders responsibilities are to make sure the team has a challenge statemen
 
 Participants are the rest of the team involved in the design sprint, they participate in all the activities organized by the facilitator. Participants make an impact on the design sprint especially when they bring their ideas of how to solve the challenge for the week during the ideation rounds, voting on different options presented during the week and building the prototype.
 
-###### Sources
-- The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
-- Observations from Shell Design Sprint (Fly on the wall)
-
 ### Conclusion
 A design sprint is a three to five-day process of generating ideas quickly, creating and testing a rough prototype with real users as soon as possible, learn from mistakes. This process can be repeated as many times as necessary, until the prototype has positive outcomes and valuable results
 
@@ -170,7 +156,12 @@ The Design Sprint was specifically invented to dramatically shorten up the innov
 
 By quickly identifying a relevant problem that needs to be solved, and an impactfull solution to that problem, a Design Sprint quickly sets a direction for innovation, preventing the company from spending a lot of money into not primary projects, or in ideas that eventually would not meet users’ needs.
 
-###### Sources
-- The Sprint Book by Jake Knapp and http://www.gv.com/sprint/
-- Dan Nessler, UX Director at HVZH, from: https://medium.com/digital-experience-design/how-to-apply-a-design-thinking-hcd-ux-or-any-creative-process-from-scratch-b8786efbf812
-- Cindy Chang, Senior Product Designer at Intercom, from: https://blog.intercom.com/running-design-workshops/
+---
+
+###### References
+[^1]: Knapp, J. (Date unknown). The Sprint Book. Consulted on 10-05-2018 from: http://www.gv.com/sprint/
+[^2]: Interviews with Yoav Farbey, business analyst at MOBGEN, Valentina Salvi, facilitator at MOBGEN and Israel Barros, facilitator at MOBGEN.
+[^3]: Observations from the Shell Design Sprint, [Fly on the Wall](../../concept/fly-on-the-wall.md)
+[^4]: Farbey, Y. (22-03-2017). How to tackle a design sprint. Consulted on 10-05-2018 from:  https://mobgen.com/how-to-tackle-design-sprint/
+[^5]: Nessler, D - UX director at HVZH. (19-05-2016). How to apply a design thinking hcd ux or any creative process from scratch. Consulted on 10-05-2018 from https://medium.com/digital-experience-design/how-to-apply-a-design-thinking-hcd-ux-or-any-creative-process-from-scratch-b8786efbf812
+[^6]: Chang, C - Senior product designer at Intercom. (28-03-2017) Designing workshops that work: getting better at brainstorming. Consulted on 10-05-2018 from: https://blog.intercom.com/running-design-workshops/

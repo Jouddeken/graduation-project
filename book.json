@@ -1,7 +1,8 @@
 {
   "gitbook": "3.2.3",
   "title": "Configuring sprints in the Enso application",
-  "description": "Configuring design sprints in the Enso application &mdash; A graduation Project by Job Ouddeken",
+  "description":
+    "Configuring design sprints in the Enso application &mdash; A graduation Project by Job Ouddeken",
   "language": "en",
   "direction": "rtl",
   "structure": {
@@ -9,9 +10,14 @@
   },
   "variables": {
     "img": "https://jobouddeken.nl/images",
-    "gist": "https://gist.github.com/Jouddeken"
+    "gist": "https://gist.github.com/Jouddeken",
+    "sketch": "https://jobouddeken.nl/files/enso-wireframes.sketch",
+    "designRationale": "https://jobouddeken.nl/files/design-rationale.pdf",
+    "productBiography": "https://jobouddeken.nl/files/product-biography.pdf",
+    "android":
+      "https://otashare.mobgen.com/build/31lpe1fiom2o/enso-android-create-sprint",
+    "ios":
+      "https://otashare.mobgen.com/build/i3i2hg5b9z36/enso-ios-create-sprint"
   },
-  "plugins": [
-    "gist"
-  ]
+  "plugins": ["gist"]
 }

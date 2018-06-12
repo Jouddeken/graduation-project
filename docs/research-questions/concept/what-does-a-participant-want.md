@@ -1,4 +1,4 @@
-# What does a participant want to know and get from the application during a design sprint?
+# OUTDATED: What does a participant want to know and get from the application during a design sprint?
 ###### Concept research question
 ---
 
@@ -20,3 +20,9 @@ The reason participants need to be informed about all this information is becaus
 3. Participants should know when to expect breaks, and then not worry about when will there be time for lunch or a break during the day.
 4. Understanding the time limitations, they have during the day, and while working on a specific task
 5. Having a visual reference to the instructions of what they need to do during a task, in case they want a quick reference or the facilitator is not available
+
+---
+
+###### References
+[^1]: Interviews with participants of the Shell Design Sprint
+[^2]: Observations from the Shell Design Sprint, [Fly on the Wall](../../concept/fly-on-the-wall.md)

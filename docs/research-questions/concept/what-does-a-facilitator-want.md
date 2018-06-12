@@ -17,6 +17,8 @@ It is difficult at the moment to find a good tool that works for the facilitator
 
 For that reason I think there are no other solutions that can solve the problem in an easier way. The facilitators mentioned that they have been searching for a better solution for quite some time, but were not able to find a better alternative than an Excel sheet. They also said that the Excel sheet is not their preferred way of working.
 
-###### Sources
-- Observations from Shell Design Sprint (Fly on the wall)
-- Interviews with Yoav Farbey, Valentina Salvi, Israel Barros
+---
+
+###### References
+[^1]: Interviews with Yoav Farbey, business analyst at MOBGEN, Valentina Salvi, facilitator at MOBGEN and Israel Barros, facilitator at MOBGEN.
+[^2]: Observations from the Shell Design Sprint, [Fly on the Wall](../../concept/fly-on-the-wall.md)

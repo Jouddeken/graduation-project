@@ -84,11 +84,11 @@ I decided to drop question 5 because the information was not necessary anymore f
 
 ##### Design
 1. What is the preferred way of creating a new sprint on a mobile application?
-<br/>1.1. What are best practices around requesting values from a user in a mobile application?
-<br/>1.2. What information is needed to create a sprint and how do you visually request this from the user?
+<br/>1.1. What information is needed to create a sprint and how do you visually request this from the user?
+<br/>1.2. What are best practices around requesting values from a user in a mobile application?
 2. What are the best practices around agendas and events for mobile applications?
 <br/>2.2. How do you give the user the ability to edit an existing agenda?
-<br/>2.2. How do you give the user the ability to edit an existing event?
+<br/>2.2. How do you give the user the ability to edit an existing sprint or event?
 3. <span style="text-decoration: line-through;">How does the participant view differ from the facilitator view?</span>
 <br/>3.1. <span style="text-decoration: line-through;">How do you give a participant access to a facilitators design sprint?</span>
 <br/>3.2. <span style="text-decoration: line-through;">What are best practices around requesting access in a mobile application?</span>
