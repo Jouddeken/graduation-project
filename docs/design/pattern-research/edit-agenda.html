@@ -1,0 +1,962 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>edit-agenda · Configuring sprints in the Enso application</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="edit-event.html" />
+    
+    
+    <link rel="prev" href="edit-sprint.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../design-brief/">
+            
+                <a href="../../design-brief/">
+            
+                    
+                    Design brief
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../concept/">
+            
+                <a href="../../concept/">
+            
+                    
+                    Concept phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../concept/user-tests.html">
+            
+                <a href="../../concept/user-tests.html">
+            
+                    
+                    User tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../concept/competitor-analysis.html">
+            
+                <a href="../../concept/competitor-analysis.html">
+            
+                    
+                    Competitor analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../concept/fly-on-the-wall.html">
+            
+                <a href="../../concept/fly-on-the-wall.html">
+            
+                    
+                    Fly on the wall
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../concept/persona.html">
+            
+                <a href="../../concept/persona.html">
+            
+                    
+                    Persona
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../concept/empathy-map.html">
+            
+                <a href="../../concept/empathy-map.html">
+            
+                    
+                    Empathy map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../concept/customer-journey.html">
+            
+                <a href="../../concept/customer-journey.html">
+            
+                    
+                    Customer journey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../concept/expert-interview.html">
+            
+                <a href="../../concept/expert-interview.html">
+            
+                    
+                    Expert interview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../concept/conclusion.html">
+            
+                <a href="../../concept/conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Design phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../requirements-list.html">
+            
+                <a href="../requirements-list.html">
+            
+                    
+                    Requirements list
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../epics/epics.html">
+            
+                <a href="../epics/epics.html">
+            
+                    
+                    Epics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../epics/create-sprint/">
+            
+                <a href="../epics/create-sprint/">
+            
+                    
+                    create-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../epics/edit-sprint/">
+            
+                <a href="../epics/edit-sprint/">
+            
+                    
+                    edit-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../epics/edit-agenda/">
+            
+                <a href="../epics/edit-agenda/">
+            
+                    
+                    edit-agenda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="../epics/edit-event/">
+            
+                <a href="../epics/edit-event/">
+            
+                    
+                    edit-event
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="pattern-research.html">
+            
+                <a href="pattern-research.html">
+            
+                    
+                    Pattern research
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="create-sprint.html">
+            
+                <a href="create-sprint.html">
+            
+                    
+                    create-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="edit-sprint.html">
+            
+                <a href="edit-sprint.html">
+            
+                    
+                    edit-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.3.3" data-path="edit-agenda.html">
+            
+                <a href="edit-agenda.html">
+            
+                    
+                    edit-agenda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.4" data-path="edit-event.html">
+            
+                <a href="edit-event.html">
+            
+                    
+                    edit-event
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../design-process.html">
+            
+                <a href="../design-process.html">
+            
+                    
+                    Design process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../ux-prototype.html">
+            
+                <a href="../ux-prototype.html">
+            
+                    
+                    UX prototype
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../ux-user-tests.html">
+            
+                <a href="../ux-user-tests.html">
+            
+                    
+                    UX user tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../conclusion.html">
+            
+                <a href="../conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../technical/">
+            
+                <a href="../../technical/">
+            
+                    
+                    Technical phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../technical/framework.html">
+            
+                <a href="../../technical/framework.html">
+            
+                    
+                    Framework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../technical/storage-and-data-flow.html">
+            
+                <a href="../../technical/storage-and-data-flow.html">
+            
+                    
+                    Storage and data flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../technical/project-structure.html">
+            
+                <a href="../../technical/project-structure.html">
+            
+                    
+                    Project structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../technical/styling.html">
+            
+                <a href="../../technical/styling.html">
+            
+                    
+                    Styling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../../technical/prototype.html">
+            
+                <a href="../../technical/prototype.html">
+            
+                    
+                    Prototype
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../research-questions/">
+            
+                <a href="../../research-questions/">
+            
+                    
+                    Research questions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../research-questions/concept/">
+            
+                <a href="../../research-questions/concept/">
+            
+                    
+                    Concept
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../../research-questions/concept/what-is-a-design-sprint.html">
+            
+                <a href="../../research-questions/concept/what-is-a-design-sprint.html">
+            
+                    
+                    What is a design sprint?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../../research-questions/concept/who-is-the-target-audience.html">
+            
+                <a href="../../research-questions/concept/who-is-the-target-audience.html">
+            
+                    
+                    Who is the target audience?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../../research-questions/concept/what-are-the-problems.html">
+            
+                <a href="../../research-questions/concept/what-are-the-problems.html">
+            
+                    
+                    What are the problems?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.4" data-path="../../research-questions/concept/what-does-a-facilitator-want.html">
+            
+                <a href="../../research-questions/concept/what-does-a-facilitator-want.html">
+            
+                    
+                    What does a facilitator want?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.5" data-path="../../research-questions/concept/what-does-a-participant-want.html">
+            
+                <a href="../../research-questions/concept/what-does-a-participant-want.html">
+            
+                    
+                    OUTDATED: What does a participant want?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../research-questions/design/">
+            
+                <a href="../../research-questions/design/">
+            
+                    
+                    Design
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../research-questions/design/preferred-way-of-creating-content.html">
+            
+                <a href="../../research-questions/design/preferred-way-of-creating-content.html">
+            
+                    
+                    Preferred way of creating content
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../../research-questions/design/agenda-and-event-best-practices.html">
+            
+                <a href="../../research-questions/design/agenda-and-event-best-practices.html">
+            
+                    
+                    Agendas and event best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../research-questions/technical/">
+            
+                <a href="../../research-questions/technical/">
+            
+                    
+                    Technical
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="../../research-questions/technical/restrictions-of-react-native.html">
+            
+                <a href="../../research-questions/technical/restrictions-of-react-native.html">
+            
+                    
+                    Restrictions of React Native
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="../../research-questions/technical/codebase-best-practices.html">
+            
+                <a href="../../research-questions/technical/codebase-best-practices.html">
+            
+                    
+                    Codebase best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.3" data-path="../../research-questions/technical/writing-srm-code.html">
+            
+                <a href="../../research-questions/technical/writing-srm-code.html">
+            
+                    
+                    Writing SRM code
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../reflection/">
+            
+                <a href="../../reflection/">
+            
+                    
+                    Reflection
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >edit-agenda</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="edit-agenda">edit-agenda</h1>
+<h6 id="design-pattern">Design pattern</h6>
+<h3 id="introduction">Introduction</h3>
+<p>A sprint agenda is a collection of events that are going to be done during the selected day of the design sprint. The events are in a list in the current version of the Enso application, and that list worked good. With the next release we are adding some features to this list, most of them are edit features.</p>
+<p>The features we were going to add to the existing agenda events list are:</p>
+<ul>
+<li>Mark event as done</li>
+<li>Remove event</li>
+<li>Reorder event</li>
+<li>Add event</li>
+</ul>
+<h3 id="option-1-&#x2014;-edit-mode">Option 1 &#x2014; Edit mode</h3>
+<p>The first pattern I looked at was the pattern that is used in the iOS clock application. In this application they have a list of clocks that display the time around the world. These clocks could be the events in the case of the Enso application. The user has an edit and add button. In the case of the clock application they are placed in the top of the screen. With the edit button the user &apos;activates&apos; the edit-mode. The red delete icon and the three horizontal lines appear on every item, to indicate a delete and reorder action.</p>
+<div class="images-row group">
+  <div class="image-item image-item--1-2">
+    <img src="https://jobouddeken.nl/images/patterns/iOS-timer-1.jpeg">
+  </div>
+  <div class="image-item image-item--1-2">
+    <img src="https://jobouddeken.nl/images/patterns/iOS-timer-2.jpeg">
+  </div>
+  <div class="image-item image-item--1-2">
+    <img src="https://jobouddeken.nl/images/patterns/iOS-timer-3.jpeg">
+  </div>
+  <div class="image-item image-item--1-2">
+    <img src="https://jobouddeken.nl/images/patterns/iOS-timer-4.jpeg">
+  </div>
+</div>
+
+<p>After clicking on the red delete button the item moves to the left to reveal the actual delete button. This forces the user to do at least two actions, and prevents accidental deletion of items (clocks). When clicking on the three horizontal drag lines the item turns slightly transparant and the user can drag the item around the screen. When clicking the plus, the user is taken to another screen where he or she can select a new clock to add to the list.</p>
+<h3 id="option-2-&#x2014;-single-item-edit">Option 2 &#x2014; Single item edit</h3>
+<p>Another option I looked at was single edit mode. In this mode the user can edit a single item at any given point in time, without having to enable an edit mode. This pattern is found in the messages application on iOS devices. The user sees a list of messages and can swipe from right to left to reveal options. There is an &apos;edit&apos; button that activates a similar edit mode as described in the pattern above.</p>
+<div class="images-row group">
+  <div class="image-item image-item--1-2 image-item--border">
+    <img src="https://jobouddeken.nl/images/patterns/single-edit-1.jpeg">
+  </div>
+  <div class="image-item image-item--1-2 image-item--border">
+    <img src="https://jobouddeken.nl/images/patterns/single-edit-2.jpeg">
+  </div>
+</div>
+
+<p>This option is probably faster compared to the first option when the user wants to edit a single item, but when there are more than two option for the user, the menu that slides out might get cluttered with too many options.</p>
+<h3 id="option-3-&#x2014;-mass-edit">Option 3 &#x2014; Mass edit</h3>
+<p>The third option I looked at was mass edit mode, where the user can edit many items at once. This pattern also has an edit mode, that activates the checkboxes on the left side of the items. The user can select the items he or she wants to do something with, and with the bar in the bottom of the screen perform an action on them. With this option the user can delete or move multiple items at once, which is faster than doing it one by one for every item.</p>
+<div class="images-row group">
+  <div class="image-item image-item--1-3 image-item--border">
+    <img src="https://jobouddeken.nl/images/patterns/mass-edit-1.jpeg">
+  </div>
+  <div class="image-item image-item--1-3 image-item--border">
+    <img src="https://jobouddeken.nl/images/patterns/mass-edit-2.jpeg">
+  </div>
+  <div class="image-item image-item--1-3 image-item--border">
+    <img src="https://jobouddeken.nl/images/patterns/mass-edit-3.jpeg">
+  </div>
+</div>
+
+<h3 id="conclusion">Conclusion</h3>
+<p>After reviewing the options above I chose the first option to be added to the UX prototype to be tested. This was because it offered the possibility to add events with an add button, and enabling the edit mode with a button. When the user was in the edit mode he or she could drag the events around with the drag handles on the right, and remove the item with the delete button on the left. I also had to add a function where the user could mark an event as done, that could be done by swiping from left to right on an item.</p>
+<p>The single item edit would be too cluttered with options with three functionalities in the swipeout menu: mark as done, delete and drag. And the mass edit option would be a nice feature to add later in the project. For the first version it was enough to delete events one at the time. This decision would also speed up the development phase.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="edit-sprint.html" class="navigation navigation-prev " aria-label="Previous page: edit-sprint">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="edit-event.html" class="navigation navigation-next " aria-label="Next page: edit-event">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"edit-agenda","level":"1.4.3.3","depth":3,"next":{"title":"edit-event","level":"1.4.3.4","depth":3,"path":"docs/design/pattern-research/edit-event.md","ref":"docs/design/pattern-research/edit-event.md","articles":[]},"previous":{"title":"edit-sprint","level":"1.4.3.2","depth":3,"path":"docs/design/pattern-research/edit-sprint.md","ref":"docs/design/pattern-research/edit-sprint.md","articles":[]},"dir":"ltr"},"config":{"plugins":["gist"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"gist":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"img":"https://jobouddeken.nl/images","files":"https://jobouddeken.nl/files","gist":"https://gist.github.com/Jouddeken","sketch":"https://jobouddeken.nl/files/enso-wireframes.sketch","designRationale":"https://jobouddeken.nl/files/design-rationale.pdf","productBiography":"https://jobouddeken.nl/files/product-biography.pdf","android":"https://otashare.mobgen.com/build/31lpe1fiom2o/enso-android-create-sprint","ios":"https://otashare.mobgen.com/build/i3i2hg5b9z36/enso-ios-create-sprint"},"title":"Configuring sprints in the Enso application","language":"en","gitbook":"3.2.3","description":"Configuring design sprints in the Enso application &mdash; A graduation Project by Job Ouddeken","direction":"rtl"},"file":{"path":"docs/design/pattern-research/edit-agenda.md","mtime":"2018-06-04T12:40:08.506Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-12T16:23:54.477Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-gist/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

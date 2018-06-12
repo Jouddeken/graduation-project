@@ -1,0 +1,975 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Writing SRM code · Configuring sprints in the Enso application</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../reflection/" />
+    
+    
+    <link rel="prev" href="codebase-best-practices.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../design-brief/">
+            
+                <a href="../../design-brief/">
+            
+                    
+                    Design brief
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../concept/">
+            
+                <a href="../../concept/">
+            
+                    
+                    Concept phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../concept/user-tests.html">
+            
+                <a href="../../concept/user-tests.html">
+            
+                    
+                    User tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../concept/competitor-analysis.html">
+            
+                <a href="../../concept/competitor-analysis.html">
+            
+                    
+                    Competitor analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../concept/fly-on-the-wall.html">
+            
+                <a href="../../concept/fly-on-the-wall.html">
+            
+                    
+                    Fly on the wall
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../concept/persona.html">
+            
+                <a href="../../concept/persona.html">
+            
+                    
+                    Persona
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../concept/empathy-map.html">
+            
+                <a href="../../concept/empathy-map.html">
+            
+                    
+                    Empathy map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../concept/customer-journey.html">
+            
+                <a href="../../concept/customer-journey.html">
+            
+                    
+                    Customer journey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../concept/expert-interview.html">
+            
+                <a href="../../concept/expert-interview.html">
+            
+                    
+                    Expert interview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../concept/conclusion.html">
+            
+                <a href="../../concept/conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../design/">
+            
+                <a href="../../design/">
+            
+                    
+                    Design phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../design/requirements-list.html">
+            
+                <a href="../../design/requirements-list.html">
+            
+                    
+                    Requirements list
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../design/epics/epics.html">
+            
+                <a href="../../design/epics/epics.html">
+            
+                    
+                    Epics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../../design/epics/create-sprint/">
+            
+                <a href="../../design/epics/create-sprint/">
+            
+                    
+                    create-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../../design/epics/edit-sprint/">
+            
+                <a href="../../design/epics/edit-sprint/">
+            
+                    
+                    edit-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../../design/epics/edit-agenda/">
+            
+                <a href="../../design/epics/edit-agenda/">
+            
+                    
+                    edit-agenda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="../../design/epics/edit-event/">
+            
+                <a href="../../design/epics/edit-event/">
+            
+                    
+                    edit-event
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../design/pattern-research/pattern-research.html">
+            
+                <a href="../../design/pattern-research/pattern-research.html">
+            
+                    
+                    Pattern research
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../design/pattern-research/create-sprint.html">
+            
+                <a href="../../design/pattern-research/create-sprint.html">
+            
+                    
+                    create-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../../design/pattern-research/edit-sprint.html">
+            
+                <a href="../../design/pattern-research/edit-sprint.html">
+            
+                    
+                    edit-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../../design/pattern-research/edit-agenda.html">
+            
+                <a href="../../design/pattern-research/edit-agenda.html">
+            
+                    
+                    edit-agenda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.4" data-path="../../design/pattern-research/edit-event.html">
+            
+                <a href="../../design/pattern-research/edit-event.html">
+            
+                    
+                    edit-event
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../design/design-process.html">
+            
+                <a href="../../design/design-process.html">
+            
+                    
+                    Design process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../design/ux-prototype.html">
+            
+                <a href="../../design/ux-prototype.html">
+            
+                    
+                    UX prototype
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../design/ux-user-tests.html">
+            
+                <a href="../../design/ux-user-tests.html">
+            
+                    
+                    UX user tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../design/conclusion.html">
+            
+                <a href="../../design/conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../technical/">
+            
+                <a href="../../technical/">
+            
+                    
+                    Technical phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../technical/framework.html">
+            
+                <a href="../../technical/framework.html">
+            
+                    
+                    Framework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../technical/storage-and-data-flow.html">
+            
+                <a href="../../technical/storage-and-data-flow.html">
+            
+                    
+                    Storage and data flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../technical/project-structure.html">
+            
+                <a href="../../technical/project-structure.html">
+            
+                    
+                    Project structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../technical/styling.html">
+            
+                <a href="../../technical/styling.html">
+            
+                    
+                    Styling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../../technical/prototype.html">
+            
+                <a href="../../technical/prototype.html">
+            
+                    
+                    Prototype
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Research questions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../concept/">
+            
+                <a href="../concept/">
+            
+                    
+                    Concept
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../concept/what-is-a-design-sprint.html">
+            
+                <a href="../concept/what-is-a-design-sprint.html">
+            
+                    
+                    What is a design sprint?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../concept/who-is-the-target-audience.html">
+            
+                <a href="../concept/who-is-the-target-audience.html">
+            
+                    
+                    Who is the target audience?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../concept/what-are-the-problems.html">
+            
+                <a href="../concept/what-are-the-problems.html">
+            
+                    
+                    What are the problems?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.4" data-path="../concept/what-does-a-facilitator-want.html">
+            
+                <a href="../concept/what-does-a-facilitator-want.html">
+            
+                    
+                    What does a facilitator want?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.5" data-path="../concept/what-does-a-participant-want.html">
+            
+                <a href="../concept/what-does-a-participant-want.html">
+            
+                    
+                    OUTDATED: What does a participant want?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../design/">
+            
+                <a href="../design/">
+            
+                    
+                    Design
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../design/preferred-way-of-creating-content.html">
+            
+                <a href="../design/preferred-way-of-creating-content.html">
+            
+                    
+                    Preferred way of creating content
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../design/agenda-and-event-best-practices.html">
+            
+                <a href="../design/agenda-and-event-best-practices.html">
+            
+                    
+                    Agendas and event best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Technical
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="restrictions-of-react-native.html">
+            
+                <a href="restrictions-of-react-native.html">
+            
+                    
+                    Restrictions of React Native
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="codebase-best-practices.html">
+            
+                <a href="codebase-best-practices.html">
+            
+                    
+                    Codebase best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.3.3" data-path="writing-srm-code.html">
+            
+                <a href="writing-srm-code.html">
+            
+                    
+                    Writing SRM code
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../reflection/">
+            
+                <a href="../../reflection/">
+            
+                    
+                    Reflection
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Writing SRM code</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="writing-scalable-reusable-and-maintainable-code">Writing Scalable, Reusable and Maintainable Code</h1>
+<h6 id="technical-research-question">Technical research question</h6>
+<hr>
+<h3 id="31-what-packages-or-patterns-can-you-use-to-make-the-code-more-clean-and-efficient">3.1 What packages or patterns can you use to make the code more clean and efficient?</h3>
+<p>Good code is consistent code. To enforce consistency in  a project, a developer can use a couple of tools. Using a modern editor (VSCode, WebStorm or something similar) it is possible to add a linter to the code editor. This linter is a program that checks the code as it is being written down. It will give the developer warnings when the code is not consistent or when the code that is written down is outdated or not adviced. There are a couple of linters available, but in the Enso project I used ESLint <sup><a href="#fn_1" id="reffn_1">1</a></sup>. When I make a mistake in the code it shows you the following:</p>
+<p><img src="https://jobouddeken.nl/images/eslint-error.png" alt="eslint error"></p>
+<p>The ESLint plugin is checking against a lot of rules. At MOBGEN the developers use the Airbnb setup with some additional rules added to the setup. This enforces the developers to write the same type of code. The ESLint also checks against the indentation of the code and returns an error when the indentation is not correct.</p>
+<p>Another package that I used in the project that was adviced by Dennis Korff, senior developer at MOBGEN <sup><a href="#fn_2" id="reffn_2">2</a></sup>, was the Prettier package <sup><a href="#fn_3" id="reffn_3">3</a></sup>. Prettier is an an autoformatter for your code. When you hit save it automatically reformats the code following the ESLint rules that are set up for the Prettier plugin.</p>
+<p>A good pattern that should be followed and is considered a best practice as well is the smart and dumb components pattern I explain in the <a href="../../technical/project-structure.html">project structure</a> section. With this pattern logic is separated from visual components.</p>
+<p>To keep the code consistent and clean we did code reviews as well. This is explained in the next section a bit more, as it is part of the Git workflow.</p>
+<h3 id="32-how-can-you-work-with-a-version-control-system-and-why-is-it-considered-indispensable-in-a-project">3.2 How can you work with a version control system, and why is it considered indispensable in a project?</h3>
+<p>When working on a development project, there is nothing worse than code loss. To prevent this, Git was used. Git is a version control system made by Linus Thorvalds <sup><a href="#fn_4" id="reffn_4">4</a></sup>. Git works with branches that basically have a copy of the project on them. For example you have the <code>master</code> branch that contains the latest release of an application, a <code>development</code> branch that contains features that are done for a next release, and most of the time multiple <code>feature/branch-name</code> branches where developers work on their own separate features <sup><a href="#fn_5" id="reffn_5">5</a></sup>.</p>
+<p>Without Git or another version control system you are constantly copying files between developers, which is very error sensitive. You want to prevent that. Another benefit of using a version control system is the possibility to go back in history and run an older version of the app. This could be useful when, for some reason, the current branch has errors on them and the developer wants to check where these errors slipped into the project. Git serves as a history tool for those situations.</p>
+<p>Besides that you can do very structured code reviews when using a branching model like the one Vincent Driessen describes on his blog <sup><a href="#fn_6" id="reffn_6">6</a></sup>. When a feature branch is being merged into the development branch, the developer that requests this merge assigns a couple of developers as reviewers to this request. The assigned developers will then check the code for any inconsistencies or errors before it gets merged into the development branch. This way you ensure that everything that is on the development branch is actually working. <sup><a href="#fn_7" id="reffn_7">7</a></sup></p>
+<p>Below is an example of how such pull request looks like:
+<img src="https://jobouddeken.nl/images/enso-bitbucket-pull-request.png" alt="enso-bitbucket-pull-request.png"></p>
+<h3 id="33-how-can-you-make-sure-the-code-you-write-will-work-as-expected">3.3 How can you make sure the code you write will work as expected?</h3>
+<p>Doing code reviews is a big part of making sure that the code works as expected. A second set of eyes and brains that scan the code can already prevent many bugs or help you with improving your code. Another good practice is to do unit tests on the code. Unit testing is breaking your application into smaller pieces and subjecting these pieces to a number of tests you have written for them <sup><a href="#fn_8" id="reffn_8">8</a></sup>.</p>
+<p>Imagine the following function:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sum</span>(<span class="hljs-params">a, b</span>) </span>{
+  <span class="hljs-keyword">return</span> a + b;
+}
+</code></pre>
+<p>To unit test this function you can:</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// call the function</span>
+sum(<span class="hljs-number">2</span>, <span class="hljs-number">4</span>) <span class="hljs-comment">// should return 6</span>
+</code></pre>
+<p>Functions in real world applications are most of the time a bit more complex, but it is still important to test these functions. For testing in React, Facebook made a package named Jest. With Jest you can run the tests in your command line. An example of a unit test with jest would be as follows:</p>
+<p>Imagine we have the following function again:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sum</span>(<span class="hljs-params">a, b</span>) </span>{
+  <span class="hljs-keyword">return</span> a + b;
+}
+</code></pre>
+<p>With jest we can test this function as follows:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> { sum } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./sum&apos;</span>;
+
+test(<span class="hljs-string">&apos;adds 1 + 2 to equal 3&apos;</span>, () =&gt; {
+  expect(sum(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>)).toBe(<span class="hljs-number">3</span>);
+});
+</code></pre>
+<p>Jest will run this test and add the <code>passed</code> flag when the test returns true. With the smart and dumb components setup that was described earlier it is easier to do the unit tests as well. Your dumb components only render the data, so they are easy to test.</p>
+<p>The unit tests are a good way to keep track of which properties every component receives. When another developer changes some things in a component, runs the tests and they suddenly fail, he or she knows something is not correct and has to change. This way you will prevent unexpected errors. <sup><a href="#fn_9" id="reffn_9">9</a></sup></p>
+<hr>
+<h3 id="references">References</h3>
+<blockquote id="fn_1">
+<sup>1</sup>. Author unknown. (Date unknown). ESLint documentation. Consulted on 08-06-2018 from: <a href="https://eslint.org/" target="_blank">https://eslint.org/</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. Korff, D. (02-06-2018). Interview with a senior developer at MOBGEN about best practices.<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. Author unknown. (Date unknown). Prettier GitHub. Consulted on 08-06-2018 from: <a href="https://github.com/prettier/prettier" target="_blank">https://github.com/prettier/prettier</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. Author unkown. (31-10-2017). Linus Thorvalds wikipedia. Consulted on 08-06-2018 from: <a href="https://nl.wikipedia.org/wiki/Linus_Torvalds" target="_blank">https://nl.wikipedia.org/wiki/Linus_Torvalds</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. Strumpflohner, J. (30-04-2013) Git Explained: For Beginners. Consulted on 08-06-2018 from: <a href="https://juristr.com/blog/2013/04/git-explained/" target="_blank">https://juristr.com/blog/2013/04/git-explained/</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. Vincent Driessen. (01-05-2010). A successful Git branching model. Consulted on 08-06-2018 from: <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">https://nvie.com/posts/a-successful-git-branching-model/</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_7">
+<sup>7</sup>. Radigan, D. (Date unknown). Code reviews. Consulted on 08-06-2018 from: <a href="https://www.atlassian.com/agile/software-development/code-reviews" target="_blank">https://www.atlassian.com/agile/software-development/code-reviews</a><a href="#reffn_7" title="Jump back to footnote [7] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_8">
+<sup>8</sup>. Mattj. (16-03-2009). What is unit testing answer. Consulted on 06-08-2018 from: <a href="https://stackoverflow.com/a/652309/8301587" target="_blank">https://stackoverflow.com/a/652309/8301587</a><a href="#reffn_8" title="Jump back to footnote [8] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_9">
+<sup>9</sup>. Facebook. (Date unkown). Jest documentation. Consulted on 06-08-2018 from: <a href="https://facebook.github.io/jest/docs/en/getting-started.html" target="_blank">https://facebook.github.io/jest/docs/en/getting-started.html</a><a href="#reffn_9" title="Jump back to footnote [9] in the text."> &#x21A9;</a>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="codebase-best-practices.html" class="navigation navigation-prev " aria-label="Previous page: Codebase best practices">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../reflection/" class="navigation navigation-next " aria-label="Next page: Reflection">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Writing SRM code","level":"1.6.3.3","depth":3,"next":{"title":"Reflection","level":"1.7","depth":1,"path":"docs/reflection/index.md","ref":"docs/reflection/index.md","articles":[]},"previous":{"title":"Codebase best practices","level":"1.6.3.2","depth":3,"path":"docs/research-questions/technical/codebase-best-practices.md","ref":"docs/research-questions/technical/codebase-best-practices.md","articles":[]},"dir":"ltr"},"config":{"plugins":["gist"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"gist":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"img":"https://jobouddeken.nl/images","files":"https://jobouddeken.nl/files","gist":"https://gist.github.com/Jouddeken","sketch":"https://jobouddeken.nl/files/enso-wireframes.sketch","designRationale":"https://jobouddeken.nl/files/design-rationale.pdf","productBiography":"https://jobouddeken.nl/files/product-biography.pdf","android":"https://otashare.mobgen.com/build/31lpe1fiom2o/enso-android-create-sprint","ios":"https://otashare.mobgen.com/build/i3i2hg5b9z36/enso-ios-create-sprint"},"title":"Configuring sprints in the Enso application","language":"en","gitbook":"3.2.3","description":"Configuring design sprints in the Enso application &mdash; A graduation Project by Job Ouddeken","direction":"rtl"},"file":{"path":"docs/research-questions/technical/writing-srm-code.md","mtime":"2018-06-12T15:37:39.193Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-12T16:23:54.477Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-gist/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

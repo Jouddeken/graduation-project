@@ -1,0 +1,984 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Restrictions of React Native · Configuring sprints in the Enso application</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="codebase-best-practices.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../design-brief/">
+            
+                <a href="../../design-brief/">
+            
+                    
+                    Design brief
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../concept/">
+            
+                <a href="../../concept/">
+            
+                    
+                    Concept phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../concept/user-tests.html">
+            
+                <a href="../../concept/user-tests.html">
+            
+                    
+                    User tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../concept/competitor-analysis.html">
+            
+                <a href="../../concept/competitor-analysis.html">
+            
+                    
+                    Competitor analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../concept/fly-on-the-wall.html">
+            
+                <a href="../../concept/fly-on-the-wall.html">
+            
+                    
+                    Fly on the wall
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../concept/persona.html">
+            
+                <a href="../../concept/persona.html">
+            
+                    
+                    Persona
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../concept/empathy-map.html">
+            
+                <a href="../../concept/empathy-map.html">
+            
+                    
+                    Empathy map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../concept/customer-journey.html">
+            
+                <a href="../../concept/customer-journey.html">
+            
+                    
+                    Customer journey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../concept/expert-interview.html">
+            
+                <a href="../../concept/expert-interview.html">
+            
+                    
+                    Expert interview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../concept/conclusion.html">
+            
+                <a href="../../concept/conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../design/">
+            
+                <a href="../../design/">
+            
+                    
+                    Design phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../design/requirements-list.html">
+            
+                <a href="../../design/requirements-list.html">
+            
+                    
+                    Requirements list
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../design/epics/epics.html">
+            
+                <a href="../../design/epics/epics.html">
+            
+                    
+                    Epics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../../design/epics/create-sprint/">
+            
+                <a href="../../design/epics/create-sprint/">
+            
+                    
+                    create-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../../design/epics/edit-sprint/">
+            
+                <a href="../../design/epics/edit-sprint/">
+            
+                    
+                    edit-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../../design/epics/edit-agenda/">
+            
+                <a href="../../design/epics/edit-agenda/">
+            
+                    
+                    edit-agenda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="../../design/epics/edit-event/">
+            
+                <a href="../../design/epics/edit-event/">
+            
+                    
+                    edit-event
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../design/pattern-research/pattern-research.html">
+            
+                <a href="../../design/pattern-research/pattern-research.html">
+            
+                    
+                    Pattern research
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../design/pattern-research/create-sprint.html">
+            
+                <a href="../../design/pattern-research/create-sprint.html">
+            
+                    
+                    create-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../../design/pattern-research/edit-sprint.html">
+            
+                <a href="../../design/pattern-research/edit-sprint.html">
+            
+                    
+                    edit-sprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../../design/pattern-research/edit-agenda.html">
+            
+                <a href="../../design/pattern-research/edit-agenda.html">
+            
+                    
+                    edit-agenda
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.4" data-path="../../design/pattern-research/edit-event.html">
+            
+                <a href="../../design/pattern-research/edit-event.html">
+            
+                    
+                    edit-event
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../design/design-process.html">
+            
+                <a href="../../design/design-process.html">
+            
+                    
+                    Design process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../design/ux-prototype.html">
+            
+                <a href="../../design/ux-prototype.html">
+            
+                    
+                    UX prototype
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../design/ux-user-tests.html">
+            
+                <a href="../../design/ux-user-tests.html">
+            
+                    
+                    UX user tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../design/conclusion.html">
+            
+                <a href="../../design/conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../technical/">
+            
+                <a href="../../technical/">
+            
+                    
+                    Technical phase
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../technical/framework.html">
+            
+                <a href="../../technical/framework.html">
+            
+                    
+                    Framework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../technical/storage-and-data-flow.html">
+            
+                <a href="../../technical/storage-and-data-flow.html">
+            
+                    
+                    Storage and data flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../technical/project-structure.html">
+            
+                <a href="../../technical/project-structure.html">
+            
+                    
+                    Project structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../technical/styling.html">
+            
+                <a href="../../technical/styling.html">
+            
+                    
+                    Styling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../../technical/prototype.html">
+            
+                <a href="../../technical/prototype.html">
+            
+                    
+                    Prototype
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Research questions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../concept/">
+            
+                <a href="../concept/">
+            
+                    
+                    Concept
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../concept/what-is-a-design-sprint.html">
+            
+                <a href="../concept/what-is-a-design-sprint.html">
+            
+                    
+                    What is a design sprint?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../concept/who-is-the-target-audience.html">
+            
+                <a href="../concept/who-is-the-target-audience.html">
+            
+                    
+                    Who is the target audience?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../concept/what-are-the-problems.html">
+            
+                <a href="../concept/what-are-the-problems.html">
+            
+                    
+                    What are the problems?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.4" data-path="../concept/what-does-a-facilitator-want.html">
+            
+                <a href="../concept/what-does-a-facilitator-want.html">
+            
+                    
+                    What does a facilitator want?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.5" data-path="../concept/what-does-a-participant-want.html">
+            
+                <a href="../concept/what-does-a-participant-want.html">
+            
+                    
+                    OUTDATED: What does a participant want?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../design/">
+            
+                <a href="../design/">
+            
+                    
+                    Design
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../design/preferred-way-of-creating-content.html">
+            
+                <a href="../design/preferred-way-of-creating-content.html">
+            
+                    
+                    Preferred way of creating content
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../design/agenda-and-event-best-practices.html">
+            
+                <a href="../design/agenda-and-event-best-practices.html">
+            
+                    
+                    Agendas and event best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Technical
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.6.3.1" data-path="restrictions-of-react-native.html">
+            
+                <a href="restrictions-of-react-native.html">
+            
+                    
+                    Restrictions of React Native
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="codebase-best-practices.html">
+            
+                <a href="codebase-best-practices.html">
+            
+                    
+                    Codebase best practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.3" data-path="writing-srm-code.html">
+            
+                <a href="writing-srm-code.html">
+            
+                    
+                    Writing SRM code
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../reflection/">
+            
+                <a href="../../reflection/">
+            
+                    
+                    Reflection
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Restrictions of React Native</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="restrictions-of-react-native">Restrictions of React Native</h1>
+<h6 id="technical-research-question">Technical research question</h6>
+<hr>
+<p>React Native is a library that enables a developer to write a cross-platform application using a single codebase. React Native comes from the React package that was made for the web. React Native runs the javascript code the developers write and runs this on the users device. In contrast to PhoneGap or Cordova it is not a webview layer in a native wrapper, but actual javascript code that runs on the phone.</p>
+<p>This means with React Native you can use some of the native functionalities that a phone offers. Examples of these native functionalities are: a fingerprint scanner, notifications, vibrations, location or the phones local storage. With this also comes the first restriction. At the time of writing this, most of the native modules are supported in React Native. But when it was just released you could not use some of those native modules the phone has. Facebook (the creator of React and React Native) had to add this to the React Native project first, or some developer had to make this feature and make a pull request in the React Native repository on GitHub to get it into the project.</p>
+<p>This takes time, so when a new native module is introduced, React Native apps cannot immediately use it, or you would still need native Java (Android) and Swift (iOS) developers to make use of this new native module.</p>
+<p>Another issue I had with React Native was navigation. React Native only supports iOS navigation out of the box, and suggest to use the react-navigation package when developing an application. This react-navigation package is wildly complicated at first sight, when you never did any mobile development, and only did web development. You will drown in Stack, Tab and Drawer Navigators, and soon you have no idea how to setup you navigator.</p>
+<p>It is more complex than navigating on the web. I tried to use other navigation packages, such as react-native-navigation (made by Wix, the website-builder-website), and react-router (react-router is the router you use in React for web). Performance and navigational speaking react-navigation was the best package. In React Native: navigating is hard.</p>
+<p>Lastly there are some performance issues when doing heavy hardware actions in a React Native application. Take Pinterest for example, they looked into React Native and asked themselves if they could write their application with it. The short answer was: &apos;no&apos;. Their native applications were optimized to handle the unlimited scrolling feature they have. It was not possible to match the same performance with React Native. <sup><a href="#fn_1" id="reffn_1">1</a></sup> <sup><a href="#fn_2" id="reffn_2">2</a></sup> <sup><a href="#fn_3" id="reffn_3">3</a></sup></p>
+<h3 id="11-how-can-you-solve-those-restrictions">1.1 How can you solve those restrictions?</h3>
+<p>The lack of support of native modules is already getting less and less. A lot of the native modules are already supported or can be supported using community made packages. If the native module you need is not yet supported by React Native itself, and there was no developer from the community that decided to make a package that enables support of this native module, you end up needing iOS and Android developers to help you out. They would have to write an implementation for the native module and forward those functions to React Native.</p>
+<p>Navigation is still a problem. It is not really a restriction as it will work, but customizing the navigation is very limited. During the project I had a lot of problems figuring out how to set up the navigator and to control the way containers would enter the screen. Maybe for a native developer this would be easier, but for someone coming from the web development area, it did not always make sense.</p>
+<p>Lastly the performance is also still a problem, and I don&apos;t see this being fixed in the near future. The main issue with this is that the code that is executed is not native code. It is Javascript that is running in the JavascriptCore engine (the engine that runs in Safari as well). Native code will always be faster and perform better than non-native code. However, for building user interfaces in a way where you can reuse them on the web as well React Native is a very good solution.</p>
+<h3 id="12-what-other-alternatives-are-there-instead-of-react-native">1.2 What other alternatives are there instead of React Native?</h3>
+<p>There are multiple alternatives to React Native or alternatives to develop iOS and Android applications.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Alternative</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="https://ionicframework.com/" target="_blank">Ionic</a></td>
+<td style="text-align:left">Ionic is very similar to React Native. You could say Ionic the the Angular Native of Angular.</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://cordova.apache.org/" target="_blank">PhoneGap/Cordova</a></td>
+<td style="text-align:left">Phonegap/Cordova is wrapping a webview in a native container. You can make an application out of an existing website very easily.</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://www.xamarin.com/" target="_blank">Xamarin</a></td>
+<td style="text-align:left">Xamarin is a way of creating cross-platform applications which makes use of the C# language to create the code</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Progressive&#xA0;Web&#xA0;Apps</a></td>
+<td style="text-align:left">A fairly new option in the list of competitors. With progressive web apps a user can &apos;download&apos; a website to their phone, and this website has access to some native modules like notifications.</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://flutter.io/" target="_blank">Flutter</a></td>
+<td style="text-align:left">Flutter is the React Native competitor from Google. It uses the Dart language. With Flutter the user can</td>
+</tr>
+<tr>
+<td style="text-align:left">Native&#xA0;iOS&#xA0;and&#xA0;native&#xA0;Android</td>
+<td style="text-align:left">These are well known options most applications are build in.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-what-are-advantages-of-react-native">1.3 What are advantages of React Native?</h3>
+<p>The advantages of React Native are the fact that you can quickly develop an iOS and Android application with a single codebase. However, most of the competitors can do this as well, so this is only an advantage over native development. For native development you will still need to create two codebases, one for each platform.</p>
+<p>The community behind React and React Native is massive. It has a solid number 4 in the most used frameworks in the 2017 Stackoverflow survey <sup><a href="#fn_4" id="reffn_4">4</a></sup>, and is the most loved framework <sup><a href="#fn_5" id="reffn_5">5</a></sup> according to the over 64.000 developers who filled in the survey <sup><a href="#fn_6" id="reffn_6">6</a></sup>. React Native itself has close to 65.000 stars on GitHub and has 1.676 contributors working on it <sup><a href="#fn_7" id="reffn_7">7</a></sup>.</p>
+<p>Besides the above React Native has some advantages for developers that come from web development, especially those who have worked with React for web. React Native is written in the Javascript language, which is well known by almost all web developers and is the most popular programming language <sup><a href="#fn_8" id="reffn_8">8</a></sup>. This makes it easy for them to switch to native development because they don&apos;t have to learn a new language.</p>
+<p>React is already well known by the MOBGEN developers, so for me this was an advantage React Native had as well. If I had questions I could easily ask them to other developers working at MOBGEN.</p>
+<p>For the Enso team it was an advantage that with React Native we could have only one developer working on both the iOS and Android application. This was an advantage because there is no budget for this project, and only interns or unassigned employees can work on this project.</p>
+<h3 id="references">References</h3>
+<blockquote id="fn_1">
+<sup>1</sup>. Shah, H. (23-11-2017). React native limitations that every developer should know about. Consulted on 08-06-2018 from: <a href="https://www.simform.com/react-native-limitations-app-development/" target="_blank">https://www.simform.com/react-native-limitations-app-development/</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. Girish, R. (30-10-2017). What are the current limitations and features of React Native?. Consulted on 08-06-2018 from: <a href="https://www.quora.com/What-are-the-current-limitations-and-features-of-React-Native/" target="_blank">https://www.quora.com/What-are-the-current-limitations-and-features-of-React-Native/</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. Senkovska, Z. (27-07-2017). React Native Limitations and Best Practices to Deal With Them. Consulted on 08-06-2018 from: <a href="https://apiko.com/blog/react-native-limitations-and-best-practices-to-deal-with-them/" target="_blank">https://apiko.com/blog/react-native-limitations-and-best-practices-to-deal-with-them/</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. Stack OverFlow. (Januari 2018). Stack Overflow Developer Survey Results. Consulted on 06-08-2018 from: Stacko<a href="https://insights.stackoverflow.com/survey/2017#technology-frameworks-libraries-and-other-technologies" target="_blank">https://insights.stackoverflow.com/survey/2017#technology-frameworks-libraries-and-other-technologies</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. Stack OverFlow. (Januari 2018). Stack Overflow Developer Survey Results. Consulted on 06-08-2018 from: Stacko<a href="https://insights.stackoverflow.com/survey/2017#technology-most-loved-dreaded-and-wanted-frameworks-libraries-and-other-technologies" target="_blank">https://insights.stackoverflow.com/survey/2017#technology-most-loved-dreaded-and-wanted-frameworks-libraries-and-other-technologies</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. Stack OverFlow. (Januari 2018). Stack Overflow Developer Survey Results. Consulted on 06-08-2018 from: Stacko<a href="https://insights.stackoverflow.com/survey/2017" target="_blank">https://insights.stackoverflow.com/survey/2017</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_7">
+<sup>7</sup>. Facebook. (Date unknown). React Native GitHub. Consulted on 06-08-2018 from: <a href="https://github.com/facebook/react-native/" target="_blank">https://github.com/facebook/react-native/</a><a href="#reffn_7" title="Jump back to footnote [7] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_8">
+<sup>8</sup>. Stack OverFlow. (Januari 2018). Stack Overflow Developer Survey Results. Consulted on 06-08-2018 from: Stacko<a href="https://insights.stackoverflow.com/survey/2017#technology-programming-languages" target="_blank">https://insights.stackoverflow.com/survey/2017#technology-programming-languages</a><a href="#reffn_8" title="Jump back to footnote [8] in the text."> &#x21A9;</a>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Technical">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="codebase-best-practices.html" class="navigation navigation-next " aria-label="Next page: Codebase best practices">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Restrictions of React Native","level":"1.6.3.1","depth":3,"next":{"title":"Codebase best practices","level":"1.6.3.2","depth":3,"path":"docs/research-questions/technical/codebase-best-practices.md","ref":"docs/research-questions/technical/codebase-best-practices.md","articles":[]},"previous":{"title":"Technical","level":"1.6.3","depth":2,"path":"docs/research-questions/technical/index.md","ref":"docs/research-questions/technical/index.md","articles":[{"title":"Restrictions of React Native","level":"1.6.3.1","depth":3,"path":"docs/research-questions/technical/restrictions-of-react-native.md","ref":"docs/research-questions/technical/restrictions-of-react-native.md","articles":[]},{"title":"Codebase best practices","level":"1.6.3.2","depth":3,"path":"docs/research-questions/technical/codebase-best-practices.md","ref":"docs/research-questions/technical/codebase-best-practices.md","articles":[]},{"title":"Writing SRM code","level":"1.6.3.3","depth":3,"path":"docs/research-questions/technical/writing-srm-code.md","ref":"docs/research-questions/technical/writing-srm-code.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["gist"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"gist":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"img":"https://jobouddeken.nl/images","files":"https://jobouddeken.nl/files","gist":"https://gist.github.com/Jouddeken","sketch":"https://jobouddeken.nl/files/enso-wireframes.sketch","designRationale":"https://jobouddeken.nl/files/design-rationale.pdf","productBiography":"https://jobouddeken.nl/files/product-biography.pdf","android":"https://otashare.mobgen.com/build/31lpe1fiom2o/enso-android-create-sprint","ios":"https://otashare.mobgen.com/build/i3i2hg5b9z36/enso-ios-create-sprint"},"title":"Configuring sprints in the Enso application","language":"en","gitbook":"3.2.3","description":"Configuring design sprints in the Enso application &mdash; A graduation Project by Job Ouddeken","direction":"rtl"},"file":{"path":"docs/research-questions/technical/restrictions-of-react-native.md","mtime":"2018-06-12T14:12:12.574Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-12T16:23:54.477Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-gist/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
