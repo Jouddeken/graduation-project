@@ -44,3 +44,4 @@
     * [Restrictions of React Native](docs/research-questions/technical/restrictions-of-react-native.md)
     * [Codebase best practices](docs/research-questions/technical/codebase-best-practices.md)
     * [Writing SRM code](docs/research-questions/technical/writing-srm-code.md)
+* [Reflection](docs/reflection/index.md)
